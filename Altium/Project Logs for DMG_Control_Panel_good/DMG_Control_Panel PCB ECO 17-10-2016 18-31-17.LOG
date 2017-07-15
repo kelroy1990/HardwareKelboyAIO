@@ -1,0 +1,69 @@
+Removed Pin From Net: NetName=BUTTONR Pin=IC1-18
+Removed Pin From Net: NetName=BUTTONL Pin=IC1-19
+Removed Pin From Net: NetName=LEFT Pin=IC1-26
+Removed Pin From Net: NetName=UP Pin=IC1-27
+Removed Pin From Net: NetName=GAIN1 Pin=JP3-1
+Removed Pin From Net: NetName=GAIN2 Pin=JP3-2
+Removed Pin From Net: NetName=IN_RIGHT+ Pin=JP3-3
+Removed Pin From Net: NetName=IN_RIGHT- Pin=JP3-4
+Removed Pin From Net: NetName=IN_LEFT- Pin=JP3-5
+Removed Pin From Net: NetName=IN_LEFT+ Pin=JP3-6
+Removed Pin From Net: NetName=SHUTDOWN Pin=JP3-7
+Removed Pin From Net: NetName=GND Pin=JP3-8
+Removed Pin From Net: NetName=VDD Pin=JP3-9
+Removed Pin From Net: NetName=NetL1_2 Pin=TSP-4
+Removed Pin From Net: NetName=GND Pin=TSP-6
+Removed Pin From Net: NetName=GND Pin=TSP-7
+Removed Pin From Net: NetName=NetBost-At_1 Pin=TSP-15
+Removed Pin From Net: NetName=NetBost-At_1 Pin=TSP-16
+Removed Pin From Net: NetName=GND Pin=TSP-17
+Removed Member From Class: ClassName=Sheet1 Member=A-R1
+Removed Member From Class: ClassName=Sheet1 Member=A-R3
+Removed Member From Class: ClassName=Sheet1 Member=A-R4
+Removed Member From Class: ClassName=Sheet1 Member=A-R5
+Removed Member From Class: ClassName=Powerbost Member=AMP
+Removed Member From Class: ClassName=Sheet3 Member=JP3
+Change Component Designator: OldDesignator=AMP NewDesignator=U1
+Change Component Designator: OldDesignator=L1 NewDesignator=ButtonL1
+Change Component Designator: OldDesignator=R1 NewDesignator=ButtonR1
+Added Component: Designator=A-J1(JUMPER)
+Added Component: Designator=A-J2(JUMPER)
+Added Component: Designator=A-J3(JUMPER)
+Added Component: Designator=A-J4(JUMPER)
+Added Component: Designator=P5(HDR1X6)
+Added Pin To Net: NetName=GAIN1 Pin=A-J1-2
+Added Pin To Net: NetName=VDD Pin=A-J2-1
+Added Pin To Net: NetName=GAIN1 Pin=A-J2-2
+Added Pin To Net: NetName=GAIN1 Pin=A-J3-2
+Added Pin To Net: NetName=GND Pin=A-J4-1
+Added Pin To Net: NetName=GAIN1 Pin=A-J4-2
+Added Pin To Net: NetName=LEFT Pin=IC1-18
+Added Pin To Net: NetName=UP Pin=IC1-19
+Added Pin To Net: NetName=BUTTONR Pin=IC1-26
+Added Pin To Net: NetName=BUTTONL Pin=IC1-27
+Added Pin To Net: NetName=GAIN1 Pin=P5-1
+Added Pin To Net: NetName=GAIN2 Pin=P5-2
+Added Pin To Net: NetName=IN_RIGHT+ Pin=P5-3
+Added Pin To Net: NetName=IN_RIGHT- Pin=P5-4
+Added Pin To Net: NetName=IN_LEFT- Pin=P5-5
+Added Pin To Net: NetName=IN_LEFT+ Pin=P5-6
+Added Pin To Net: NetName=NetA-J1_1 Pin=A-J1-1
+Added Pin To Net: NetName=NetA-J1_1 Pin=A-R3-1
+Added Net: Name=NetA-J1_1
+Added Pin To Net: NetName=NetA-J3_1 Pin=A-J3-1
+Added Pin To Net: NetName=NetA-J3_1 Pin=A-R4-2
+Added Net: Name=NetA-J3_1
+Added Member To Class: ClassName=Sheet3 Member=Component A-J1 Jumper
+Added Member To Class: ClassName=Sheet3 Member=Component A-J2 Jumper
+Added Member To Class: ClassName=Sheet3 Member=Component A-J3 Jumper
+Added Member To Class: ClassName=Sheet3 Member=Component A-J4 Jumper
+Added Member To Class: ClassName=Powerbost Member=Component LED1 RED
+Added Member To Class: ClassName=Sheet3 Member=Component P5 Header 6
+Added Member To Class: ClassName=Sheet1 Member=Component R1 22
+Added Member To Class: ClassName=Sheet1 Member=Component R3 1K
+Added Member To Class: ClassName=Sheet1 Member=Component R4 10K
+Added Member To Class: ClassName=Sheet1 Member=Component R5 1K
+Added Member To Class: ClassName=Powerbost Member=Component U1 MCP73871
+Added Room: Name=Powerbost
+Added Room: Name=Sheet1
+Added Room: Name=Sheet3

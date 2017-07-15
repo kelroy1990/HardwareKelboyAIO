@@ -1,0 +1,42 @@
+Removed Pin From Net: NetName=GND Pin=A-P$1
+Removed Pin From Net: NetName=GND Pin=B-P$1
+Removed Pin From Net: NetName=GND Pin=DOWN-P$1
+Removed Pin From Net: NetName=GND Pin=LEFT-P$1
+Removed Pin From Net: NetName=GND Pin=RIGHT-P$1
+Removed Pin From Net: NetName=GND Pin=SELECT-P$2
+Removed Pin From Net: NetName=GND Pin=START-P$2
+Removed Pin From Net: NetName=GND Pin=UP-P$1
+Change Component DesignItemId : Designator=A Old DesignItemId=DMG-BTNREGULAR New DesignItemId=SW-PB
+Change Component DesignItemId : Designator=B Old DesignItemId=DMG-BTNREGULAR New DesignItemId=SW-PB
+Change Component DesignItemId : Designator=DOWN Old DesignItemId=DMG-BTNREGULAR New DesignItemId=SW-PB
+Change Component DesignItemId : Designator=LEFT Old DesignItemId=DMG-BTNREGULAR New DesignItemId=SW-PB
+Change Component DesignItemId : Designator=RIGHT Old DesignItemId=DMG-BTNREGULAR New DesignItemId=SW-PB
+Change Component DesignItemId : Designator=UP Old DesignItemId=DMG-BTNREGULAR New DesignItemId=SW-PB
+Change Component DesignItemId : Designator=SELECT Old DesignItemId=DMG-BTNSELECT New DesignItemId=SW-PB
+Change Component DesignItemId : Designator=START Old DesignItemId=DMG-BTNSELECT New DesignItemId=SW-PB
+Change Component Footprint: Designator=START Old Footprint=DMG-SEL New Footprint=DMG-ST
+Change Component Comment : Designator=A Old Comment= New Comment=SW-PB
+Change Component Comment : Designator=B Old Comment= New Comment=SW-PB
+Change Component Comment : Designator=DOWN Old Comment= New Comment=SW-PB
+Change Component Comment : Designator=LEFT Old Comment= New Comment=SW-PB
+Change Component Comment : Designator=RIGHT Old Comment= New Comment=SW-PB
+Change Component Comment : Designator=SELECT Old Comment= New Comment=SW-PB
+Change Component Comment : Designator=START Old Comment= New Comment=SW-PB
+Change Component Comment : Designator=UP Old Comment= New Comment=SW-PB
+Change Component Description : Designator=A Old Description= New Description=Switch
+Change Component Description : Designator=B Old Description= New Description=Switch
+Change Component Description : Designator=DOWN Old Description= New Description=Switch
+Change Component Description : Designator=LEFT Old Description= New Description=Switch
+Change Component Description : Designator=RIGHT Old Description= New Description=Switch
+Change Component Description : Designator=SELECT Old Description= New Description=Switch
+Change Component Description : Designator=UP Old Description= New Description=Switch
+Change Component Library : Designator=A Old Library=Game Boy.IntLib New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=B Old Library=Game Boy.IntLib New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=DOWN Old Library=Game Boy.IntLib New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=LEFT Old Library=Game Boy.IntLib New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=RIGHT Old Library=Game Boy.IntLib New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=SELECT Old Library=Game Boy.IntLib New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=UP Old Library=Game Boy.IntLib New Library=Miscellaneous Devices.IntLib
+Added Component: Designator=Z(DMG-BTN -XY)
+Added Pin To Net: NetName=GND Pin=Z-1
+Added Member To Class: ClassName=Sheet1 Member=Component Z SW-PB

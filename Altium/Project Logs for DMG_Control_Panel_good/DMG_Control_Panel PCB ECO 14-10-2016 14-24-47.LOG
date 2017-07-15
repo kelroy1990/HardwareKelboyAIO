@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=ISP NewDesignator=ISP6
+Added Member To Class: ClassName=Sheet1 Member=Component C2 9pF
+Added Member To Class: ClassName=Sheet1 Member=Component C6 0.1uF
+Added Room: Name=Sheet1

@@ -1,0 +1,41 @@
+Change Component DesignItemId : Designator=JP1 Old DesignItemId=1X11M New DesignItemId=PINHD-1X11M
+Change Component DesignItemId : Designator=A Old DesignItemId=DMG-BTN New DesignItemId=DMG-BTNREGULAR
+Change Component DesignItemId : Designator=B Old DesignItemId=DMG-BTN New DesignItemId=DMG-BTNREGULAR
+Change Component DesignItemId : Designator=DOWN Old DesignItemId=DMG-BTN New DesignItemId=DMG-BTNREGULAR
+Change Component DesignItemId : Designator=LEFT Old DesignItemId=DMG-BTN New DesignItemId=DMG-BTNREGULAR
+Change Component DesignItemId : Designator=RIGHT Old DesignItemId=DMG-BTN New DesignItemId=DMG-BTNREGULAR
+Change Component DesignItemId : Designator=UP Old DesignItemId=DMG-BTN New DesignItemId=DMG-BTNREGULAR
+Change Component DesignItemId : Designator=X Old DesignItemId=DMG-BTN New DesignItemId=DMG-BTNREGULAR
+Change Component DesignItemId : Designator=Y Old DesignItemId=DMG-BTN New DesignItemId=DMG-BTNREGULAR
+Change Component DesignItemId : Designator=SELECT Old DesignItemId=DMG-SEL New DesignItemId=DMG-BTNSELECT
+Change Component DesignItemId : Designator=START Old DesignItemId=DMG-SEL New DesignItemId=DMG-BTNSELECT
+Change Component DesignItemId : Designator=TP1 Old DesignItemId=P1-13Y New DesignItemId=TPPAD1-13Y
+Change Component DesignItemId : Designator=TP2 Old DesignItemId=P1-13Y New DesignItemId=TPPAD1-13Y
+Change Component Description : Designator=JP1 Old Description= New Description=PIN HEADER
+Change Component Description : Designator=TP1 Old Description= New Description=Test pad
+Change Component Description : Designator=TP2 Old Description= New Description=Test pad
+Change Component Library : Designator=A Old Library= New Library=Game Boy.IntLib
+Change Component Library : Designator=B Old Library= New Library=Game Boy.IntLib
+Change Component Library : Designator=DOWN Old Library= New Library=Game Boy.IntLib
+Change Component Library : Designator=LEFT Old Library= New Library=Game Boy.IntLib
+Change Component Library : Designator=RIGHT Old Library= New Library=Game Boy.IntLib
+Change Component Library : Designator=SELECT Old Library= New Library=Game Boy.IntLib
+Change Component Library : Designator=START Old Library= New Library=Game Boy.IntLib
+Change Component Library : Designator=UP Old Library= New Library=Game Boy.IntLib
+Change Component Library : Designator=X Old Library= New Library=Game Boy.IntLib
+Change Component Library : Designator=Y Old Library= New Library=Game Boy.IntLib
+Change Component Library : Designator=JP1 Old Library= New Library=pinhead.IntLib
+Change Component Library : Designator=TP1 Old Library= New Library=testpad.IntLib
+Change Component Library : Designator=TP2 Old Library= New Library=testpad.IntLib
+Change Net Name : Old Net Name=N$1 New Net Name=NetJP1_2
+Change Net Name : Old Net Name=N$2 New Net Name=NetJP1_3
+Change Net Name : Old Net Name=N$3 New Net Name=NetDOWN_P$2
+Change Net Name : Old Net Name=N$4 New Net Name=NetJP1_5
+Change Net Name : Old Net Name=N$5 New Net Name=NetJP1_6
+Change Net Name : Old Net Name=N$6 New Net Name=NetJP1_7
+Change Net Name : Old Net Name=N$7 New Net Name=NetJP1_8
+Change Net Name : Old Net Name=N$8 New Net Name=NetJP1_9
+Change Net Name : Old Net Name=N$9 New Net Name=NetB_P$2
+Change Net Name : Old Net Name=N$10 New Net Name=NetA_P$2
+Added Class: Name=Sheet1
+Added Room: Name=Sheet1

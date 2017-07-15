@@ -1,0 +1,4 @@
+Change Physical Footprint: Designator=USB_2 Old Footprint=USBPADS New Footprint=USBPADS
+Change Physical Footprint: Designator=USB_3 Old Footprint=USBPADS New Footprint=USBPADS
+Change Physical Footprint: Designator=USB_4 Old Footprint=USBPADS New Footprint=USBPADS
+Change Physical Footprint: Designator=USB_RPI Old Footprint=USBPADS New Footprint=USBPADS

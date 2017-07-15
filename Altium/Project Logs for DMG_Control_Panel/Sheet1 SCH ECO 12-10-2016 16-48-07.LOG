@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=X Old Footprint=DMG-BTN -XY New Footprint=DMG-BTN
+Change Component Footprint: Designator=Y Old Footprint=DMG-BTN -XY New Footprint=DMG-BTN
+Change Component Comment: Designator=X Old Comment=DMG-BT-XY New Comment=
+Change Component Comment: Designator=Y Old Comment=DMG-BT-XY New Comment=

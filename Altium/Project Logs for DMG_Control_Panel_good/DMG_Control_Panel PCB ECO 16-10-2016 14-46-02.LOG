@@ -1,0 +1,91 @@
+Added Component: Designator=A-C1(0805)
+Added Component: Designator=A-C2(0805)
+Added Component: Designator=A-C3(0805)
+Added Component: Designator=A-C4(0805)
+Added Component: Designator=A-C5(0805)
+Added Component: Designator=A-C6(0805)
+Added Component: Designator=J1(TERMBLOCK_1X2-3.5MM)
+Added Component: Designator=J2(TERMBLOCK_1X2-3.5MM)
+Added Component: Designator=JP3(1X09_ROUND_70)
+Added Component: Designator=R1(0805)
+Added Component: Designator=R3(0805)
+Added Component: Designator=R4(0805)
+Added Component: Designator=R5(0805)
+Added Component: Designator=U1(TDFN14_3X3MM)
+Added Pin To Net: NetName=GND Pin=A-C1-2
+Added Pin To Net: NetName=GND Pin=A-C6-2
+Added Pin To Net: NetName=GND Pin=JP3-8
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-8
+Added Pin To Net: NetName=GND Pin=U1-THERMAL
+Change Net Name : Old Net Name=NetC12_1 New Net Name=NetBost-At_1
+Change Net Name : Old Net Name=NetL2_1 New Net Name=NetBost-At_2
+Added Pin To Net: NetName=GAIN1 Pin=JP3-1
+Added Pin To Net: NetName=GAIN1 Pin=R1-2
+Added Pin To Net: NetName=GAIN1 Pin=U1-5
+Added Net: Name=GAIN1
+Added Pin To Net: NetName=GAIN2 Pin=JP3-2
+Added Pin To Net: NetName=GAIN2 Pin=R1-1
+Added Net: Name=GAIN2
+Added Pin To Net: NetName=IN_LEFT+ Pin=A-C2-1
+Added Pin To Net: NetName=IN_LEFT+ Pin=JP3-6
+Added Net: Name=IN_LEFT+
+Added Pin To Net: NetName=IN_LEFT- Pin=A-C3-1
+Added Pin To Net: NetName=IN_LEFT- Pin=JP3-5
+Added Net: Name=IN_LEFT-
+Added Pin To Net: NetName=IN_RIGHT+ Pin=A-C4-1
+Added Pin To Net: NetName=IN_RIGHT+ Pin=JP3-3
+Added Net: Name=IN_RIGHT+
+Added Pin To Net: NetName=IN_RIGHT- Pin=A-C5-1
+Added Pin To Net: NetName=IN_RIGHT- Pin=JP3-4
+Added Net: Name=IN_RIGHT-
+Added Pin To Net: NetName=LOUT- Pin=J1-1
+Added Pin To Net: NetName=LOUT- Pin=U1-14
+Added Net: Name=LOUT-
+Added Pin To Net: NetName=NetA-C2_2 Pin=A-C2-2
+Added Pin To Net: NetName=NetA-C2_2 Pin=U1-3
+Added Net: Name=NetA-C2_2
+Added Pin To Net: NetName=NetA-C3_2 Pin=A-C3-2
+Added Pin To Net: NetName=NetA-C3_2 Pin=U1-4
+Added Net: Name=NetA-C3_2
+Added Pin To Net: NetName=NetA-C4_2 Pin=A-C4-2
+Added Pin To Net: NetName=NetA-C4_2 Pin=U1-7
+Added Net: Name=NetA-C4_2
+Added Pin To Net: NetName=NetA-C5_2 Pin=A-C5-2
+Added Pin To Net: NetName=NetA-C5_2 Pin=U1-6
+Added Net: Name=NetA-C5_2
+Added Pin To Net: NetName=NetJ1_2 Pin=J1-2
+Added Pin To Net: NetName=NetJ1_2 Pin=U1-13
+Added Net: Name=NetJ1_2
+Added Pin To Net: NetName=NetJ2_2 Pin=J2-2
+Added Pin To Net: NetName=NetJ2_2 Pin=U1-9
+Added Net: Name=NetJ2_2
+Added Pin To Net: NetName=NetJP1_1 Pin=R3-1
+Added Net: Name=NetJP1_1
+Added Pin To Net: NetName=NetJP1_5 Pin=R4-2
+Added Net: Name=NetJP1_5
+Added Pin To Net: NetName=ROUT+ Pin=J2-1
+Added Pin To Net: NetName=ROUT+ Pin=U1-10
+Added Net: Name=ROUT+
+Added Pin To Net: NetName=SHUTDOWN Pin=JP3-7
+Added Pin To Net: NetName=SHUTDOWN Pin=R5-1
+Added Pin To Net: NetName=SHUTDOWN Pin=U1-2
+Added Net: Name=SHUTDOWN
+Added Pin To Net: NetName=VDD Pin=A-C1-1
+Added Pin To Net: NetName=VDD Pin=A-C6-1
+Added Pin To Net: NetName=VDD Pin=JP3-9
+Added Pin To Net: NetName=VDD Pin=R3-2
+Added Pin To Net: NetName=VDD Pin=R5-2
+Added Pin To Net: NetName=VDD Pin=U1-11
+Added Pin To Net: NetName=VDD Pin=U1-12
+Added Net: Name=VDD
+Added Class: Name=Sheet3
+Added Member To Class: ClassName=Sheet1 Member=Component DOWN1 SW-PB
+Added Member To Class: ClassName=Sheet1 Member=Component LEFT1 SW-PB
+Added Member To Class: ClassName=Sheet1 Member=Component RIGHT1 SW-PB
+Added Member To Class: ClassName=Sheet1 Member=Component UP1 SW-PB
+Added Member To Class: ClassName=Sheet1 Member=Component Z1 SW-PB
+Added Room: Name=Powerbost
+Added Room: Name=Sheet1
+Added Room: Name=Sheet3

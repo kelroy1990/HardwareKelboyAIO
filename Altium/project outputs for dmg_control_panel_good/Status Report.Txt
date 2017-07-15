@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [DMG_Control_Panel_good.PrjPcb]
+   Generated File[DMG_Control_PanelV2.TXT]
+   Generated File[DMG_Control_PanelV2.LDP]
+   Generated File[DMG_Control_PanelV2.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 18:14:16 On 07/01/2017

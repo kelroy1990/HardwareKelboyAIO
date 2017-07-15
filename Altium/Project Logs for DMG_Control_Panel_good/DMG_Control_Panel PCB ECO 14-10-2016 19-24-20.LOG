@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=5VPOWERBOOST Pin=C6-1
+Removed Member From Class: ClassName=Sheet2 Member=C6
+Removed Member From Class: ClassName=Sheet2 Member=X4
+Added Pin To Net: NetName=VCC Pin=C6-1
+Added Member To Class: ClassName=Sheet2 Member=Component X1 TERMBLOCK_1X2

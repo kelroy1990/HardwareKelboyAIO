@@ -1,0 +1,45 @@
+Removed Member From Class: ClassName=DIFF90 Member=NetHUB_4
+Removed Member From Class: ClassName=DIFF90 Member=NetHUB_5
+Removed Member From Class: ClassName=DIFF90 Member=NetHUB_6
+Removed Member From Class: ClassName=DIFF90 Member=NetHUB_7
+Removed Member From Class: ClassName=DIFF90 Member=NetHUB_8
+Removed Member From Class: ClassName=DIFF90 Member=NetHUB_9
+Removed Member From Class: ClassName=DIFF90 Member=NetHUB_10
+Removed Member From Class: ClassName=DIFF90 Member=NetHUB_11
+Removed Member From Class: ClassName=DIFF90 Member=NetHUB_15
+Removed Member From Class: ClassName=DIFF90 Member=NetHUB_16
+Removed Member From Class: ClassName=DIFF90 Member=NetIC1_3
+Removed Member From Class: ClassName=DIFF90 Member=NetIC1_4
+Added Pin To Net: NetName=VCC1_8 Pin=C15-2
+Change Net Name : Old Net Name=NetHUB_4 New Net Name=USB4_N
+Change Net Name : Old Net Name=NetHUB_5 New Net Name=USB4_P
+Change Net Name : Old Net Name=NetHUB_6 New Net Name=USB3_N
+Change Net Name : Old Net Name=NetHUB_7 New Net Name=USB3_P
+Change Net Name : Old Net Name=NetHUB_8 New Net Name=USB2_N
+Change Net Name : Old Net Name=NetHUB_9 New Net Name=USB2_P
+Change Net Name : Old Net Name=NetHUB_10 New Net Name=USB1_N
+Change Net Name : Old Net Name=NetHUB_11 New Net Name=USB1_P
+Change Net Name : Old Net Name=NetHUB_15 New Net Name=OUTUSB_N
+Change Net Name : Old Net Name=NetHUB_16 New Net Name=OUTUSB_P
+Change Net Name : Old Net Name=NetIC1_3 New Net Name=AT_N
+Change Net Name : Old Net Name=NetIC1_4 New Net Name=AT_P
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Default
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Default
+Added Differential Pair: Name=AT
+Added Differential Pair: Name=OUTUSB
+Added Differential Pair: Name=USB1
+Added Differential Pair: Name=USB2
+Added Differential Pair: Name=USB3
+Added Differential Pair: Name=USB4
+Added Member To Class: ClassName=DIFF90 Member=Wire AT_N
+Added Member To Class: ClassName=DIFF90 Member=Wire AT_P
+Added Member To Class: ClassName=DIFF90 Member=Wire OUTUSB_N
+Added Member To Class: ClassName=DIFF90 Member=Wire OUTUSB_P
+Added Member To Class: ClassName=DIFF90 Member=Wire USB1_N
+Added Member To Class: ClassName=DIFF90 Member=Wire USB1_P
+Added Member To Class: ClassName=DIFF90 Member=Wire USB2_N
+Added Member To Class: ClassName=DIFF90 Member=Wire USB2_P
+Added Member To Class: ClassName=DIFF90 Member=Wire USB3_N
+Added Member To Class: ClassName=DIFF90 Member=Wire USB3_P
+Added Member To Class: ClassName=DIFF90 Member=Wire USB4_N
+Added Member To Class: ClassName=DIFF90 Member=Wire USB4_P

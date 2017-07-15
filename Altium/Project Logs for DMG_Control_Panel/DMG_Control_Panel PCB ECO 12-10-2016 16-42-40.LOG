@@ -1,0 +1,6 @@
+Change Component DesignItemId : Designator=X Old DesignItemId=DMG-BTNREGULAR New DesignItemId=DMG-BTN-XY
+Change Component DesignItemId : Designator=Y Old DesignItemId=DMG-BTNREGULAR New DesignItemId=DMG-BTN-XY
+Change Component Comment : Designator=X Old Comment= New Comment=DMG-BT-XY
+Change Component Comment : Designator=Y Old Comment= New Comment=DMG-BT-XY
+Change Component Library : Designator=X Old Library=Game Boy.IntLib New Library=Game Boy.SCHLIB
+Change Component Library : Designator=Y Old Library=Game Boy.IntLib New Library=Game Boy.SCHLIB

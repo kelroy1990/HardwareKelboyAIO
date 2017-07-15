@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=5V Old Footprint=MHDR1X2 New Footprint=TERMBLOCK_1X2-3.5MM
+Change Component Footprint: Designator=R1 Old Footprint=RES-1206in New Footprint=0603
+Change Component Footprint: Designator=R2 Old Footprint=RES-1206in New Footprint=0603
+Change Component Footprint: Designator=X4 Old Footprint=Resonador3.2x2.5 New Footprint=Res12MHZ-smd
+Change Component Footprint: Designator=HUB Old Footprint=SSOP28DB New Footprint=fe1.1s
+Change Physical Footprint: Designator=C24 Old Footprint=1206 New Footprint=1206
+Change Physical Footprint: Designator=R14 Old Footprint=1206 New Footprint=1206
+Change Physical Footprint: Designator=S1 Old Footprint=Switch New Footprint=Switch
+Change Physical Footprint: Designator=USB_4 Old Footprint=USBPADS New Footprint=USBPADS

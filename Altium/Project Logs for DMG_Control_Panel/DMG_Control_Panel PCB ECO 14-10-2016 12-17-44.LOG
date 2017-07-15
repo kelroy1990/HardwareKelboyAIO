@@ -1,0 +1,219 @@
+Removed Pin From Net: NetName=GND Pin=C1-2
+Removed Pin From Net: NetName=NetC2_1 Pin=C2-1
+Removed Pin From Net: NetName=VCC Pin=C6-1
+Removed Pin From Net: NetName=GND Pin=C6-2
+Removed Pin From Net: NetName=GND Pin=C7-2
+Removed Pin From Net: NetName=VBUS Pin=CN1-VBUS
+Change Component DesignItemId : Designator=C6 Old DesignItemId=C-USC0805K New DesignItemId=C-USC1210
+Change Component DesignItemId : Designator=C4 Old DesignItemId=CAP_CERAMIC0805_10MGAP New DesignItemId=C-USC0805K
+Change Component DesignItemId : Designator=CN1 Old DesignItemId=USBMINIB New DesignItemId=USB_TYPEAPTHFML
+Change Component Footprint: Designator=C1 Old Footprint=Res-0603 New Footprint=1608[0603]
+Change Component Footprint: Designator=C4 Old Footprint=Res-0603 New Footprint=1608[0603]
+Change Component Footprint: Designator=C7 Old Footprint=Res-0603 New Footprint=1608[0603]
+Change Component Footprint: Designator=C6 Old Footprint=Res-0603 New Footprint=C1210
+Change Component Footprint: Designator=CN1 Old Footprint=USB-MINIB New Footprint=USB_HOST-PTH
+Change Component Comment : Designator=C6 Old Comment=0.1uF New Comment=100uF
+Change Component Comment : Designator=C3 Old Comment=18pF New Comment=9pF
+Added Component: Designator=A1(DMG-BTN)
+Added Component: Designator=B2(DMG-BTN)
+Added Component: Designator=ButtonL(1X02_OVAL)
+Added Component: Designator=ButtonR(1X02_OVAL)
+Added Component: Designator=C2(1608[0603])
+Added Component: Designator=C6(1608[0603])
+Added Component: Designator=C8(RES-1206in)
+Added Component: Designator=C9(1608[0603])
+Added Component: Designator=DOWN1(DMG-BTN)
+Added Component: Designator=ISP6(HDR2X3H)
+Added Component: Designator=LEFT1(DMG-BTN)
+Added Component: Designator=P1(MHDR1X2)
+Added Component: Designator=P2(MHDR1X4)
+Added Component: Designator=R6(RES-1206in)
+Added Component: Designator=R7(RES-1206in)
+Added Component: Designator=R8(RES-1206in)
+Added Component: Designator=R9(RES-1206in)
+Added Component: Designator=R10(RES-1206in)
+Added Component: Designator=R11(RES-1206in)
+Added Component: Designator=R12(RES-1206in)
+Added Component: Designator=R13(RES-1206in)
+Added Component: Designator=R14(RES-1206in)
+Added Component: Designator=R15(RES-1206in)
+Added Component: Designator=R16(RES-1206in)
+Added Component: Designator=R17(RES-1206in)
+Added Component: Designator=R18(RES-1206in)
+Added Component: Designator=R19(RES-1206in)
+Added Component: Designator=R20(RES-1206in)
+Added Component: Designator=R21(RES-1206in)
+Added Component: Designator=R22(RES-1206in)
+Added Component: Designator=RIGHT1(DMG-BTN)
+Added Component: Designator=SELECT1(DMG-SEL)
+Added Component: Designator=START1(DMG-ST)
+Added Component: Designator=UP1(DMG-BTN)
+Added Component: Designator=X2(DMG-BTN -XY)
+Added Component: Designator=Y1(DMG-BTN -XY)
+Added Component: Designator=Z1(DMG-BTN -XY)
+Added Pin To Net: NetName=GND Pin=A1-1
+Added Pin To Net: NetName=GND Pin=B2-1
+Added Pin To Net: NetName=GND Pin=ButtonL-1
+Added Pin To Net: NetName=GND Pin=ButtonR-1
+Added Pin To Net: NetName=5.0V Pin=C2-1
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=5.0V Pin=C6-1
+Added Pin To Net: NetName=VCC Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=VBAT Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=VBAT Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=D+ Pin=CN1-D+
+Added Pin To Net: NetName=D- Pin=CN1-D-
+Added Pin To Net: NetName=5.0V Pin=CN1-VBUS
+Added Pin To Net: NetName=GND Pin=DOWN1-1
+Added Pin To Net: NetName=MISO Pin=ISP6-1
+Added Pin To Net: NetName=VCC Pin=ISP6-2
+Added Pin To Net: NetName=SCK Pin=ISP6-3
+Added Pin To Net: NetName=MOSI Pin=ISP6-4
+Added Pin To Net: NetName=RST Pin=ISP6-5
+Added Pin To Net: NetName=GND Pin=ISP6-6
+Added Pin To Net: NetName=GND Pin=LEFT1-1
+Added Pin To Net: NetName=+5V Pin=P1-1
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=+5V Pin=P2-3
+Added Pin To Net: NetName=GND Pin=P2-4
+Added Pin To Net: NetName=NetR6_1 Pin=R6-1
+Added Pin To Net: NetName=VBAT Pin=R6-2
+Added Pin To Net: NetName=GND Pin=R7-1
+Added Pin To Net: NetName=NetR6_1 Pin=R7-2
+Added Pin To Net: NetName=NetR8_1 Pin=R8-1
+Added Pin To Net: NetName=5.0V Pin=R8-2
+Added Pin To Net: NetName=GND Pin=R9-1
+Added Pin To Net: NetName=NetR8_1 Pin=R9-2
+Added Pin To Net: NetName=NetLED1_A Pin=R10-1
+Added Pin To Net: NetName=5.0V Pin=R11-1
+Added Pin To Net: NetName=NetLED2_A Pin=R11-2
+Added Pin To Net: NetName=VBAT Pin=R12-1
+Added Pin To Net: NetName=ENABLE Pin=R12-2
+Added Pin To Net: NetName=D- Pin=R13-1
+Added Pin To Net: NetName=5.0V Pin=R13-2
+Added Pin To Net: NetName=D- Pin=R14-1
+Added Pin To Net: NetName=GND Pin=R14-2
+Added Pin To Net: NetName=D+ Pin=R15-1
+Added Pin To Net: NetName=5.0V Pin=R15-2
+Added Pin To Net: NetName=D+ Pin=R16-1
+Added Pin To Net: NetName=GND Pin=R16-2
+Added Pin To Net: NetName=NetCHRG/LBO_C Pin=R17-2
+Added Pin To Net: NetName=NetDONE_C Pin=R18-2
+Added Pin To Net: NetName=VBUS Pin=R19-2
+Added Pin To Net: NetName=GND Pin=R20-2
+Added Pin To Net: NetName=GND Pin=R21-1
+Added Pin To Net: NetName=GND Pin=R22-1
+Added Pin To Net: NetName=GND Pin=RIGHT1-1
+Added Pin To Net: NetName=GND Pin=SELECT1-1
+Added Pin To Net: NetName=GND Pin=START1-1
+Added Pin To Net: NetName=NetR6_1 Pin=U1-9
+Added Pin To Net: NetName=NetR8_1 Pin=U1-14
+Added Pin To Net: NetName=GND Pin=UP1-1
+Added Pin To Net: NetName=GND Pin=X2-1
+Added Pin To Net: NetName=GND Pin=Y1-1
+Added Pin To Net: NetName=GND Pin=Z1-1
+Added Net: Name=5VPOWERBOOST
+Added Pin To Net: NetName=A Pin=A1-2
+Added Pin To Net: NetName=A Pin=IC1-25
+Added Net: Name=A
+Added Pin To Net: NetName=B Pin=B2-2
+Added Pin To Net: NetName=B Pin=IC1-31
+Added Net: Name=B
+Added Pin To Net: NetName=BUTTONL Pin=ButtonL-2
+Added Pin To Net: NetName=BUTTONL Pin=IC1-19
+Added Net: Name=BUTTONL
+Added Pin To Net: NetName=BUTTONR Pin=ButtonR-2
+Added Pin To Net: NetName=BUTTONR Pin=IC1-18
+Added Net: Name=BUTTONR
+Added Pin To Net: NetName=D+ATMEL Pin=R2-1
+Added Net: Name=D+ATMEL
+Added Pin To Net: NetName=D-ATMEL Pin=R1-1
+Added Net: Name=D-ATMEL
+Added Pin To Net: NetName=DOWN Pin=DOWN1-2
+Added Pin To Net: NetName=DOWN Pin=IC1-32
+Added Net: Name=DOWN
+Added Pin To Net: NetName=LEFT Pin=IC1-26
+Added Pin To Net: NetName=LEFT Pin=LEFT1-2
+Added Net: Name=LEFT
+Added Pin To Net: NetName=NetR10_2 Pin=R10-2
+Added Net: Name=NetR10_2
+Added Pin To Net: NetName=NetR17_1 Pin=R17-1
+Added Net: Name=NetR17_1
+Added Pin To Net: NetName=NetR18_1 Pin=R18-1
+Added Net: Name=NetR18_1
+Added Pin To Net: NetName=NetR19_1 Pin=R19-1
+Added Pin To Net: NetName=NetR19_1 Pin=R20-1
+Added Net: Name=NetR19_1
+Added Pin To Net: NetName=NetR21_2 Pin=R21-2
+Added Net: Name=NetR21_2
+Added Pin To Net: NetName=NetR22_2 Pin=R22-2
+Added Net: Name=NetR22_2
+Added Pin To Net: NetName=RIGHT Pin=IC1-12
+Added Pin To Net: NetName=RIGHT Pin=RIGHT1-2
+Added Net: Name=RIGHT
+Added Pin To Net: NetName=SELECT Pin=IC1-36
+Added Pin To Net: NetName=SELECT Pin=SELECT1-2
+Added Net: Name=SELECT
+Added Pin To Net: NetName=START Pin=IC1-37
+Added Pin To Net: NetName=START Pin=START1-2
+Added Net: Name=START
+Added Pin To Net: NetName=UP Pin=IC1-30
+Added Pin To Net: NetName=UP Pin=UP1-2
+Added Net: Name=UP
+Added Pin To Net: NetName=VRX Pin=IC1-39
+Added Pin To Net: NetName=VRX Pin=P2-2
+Added Net: Name=VRX
+Added Pin To Net: NetName=VRY Pin=IC1-38
+Added Pin To Net: NetName=VRY Pin=P2-1
+Added Net: Name=VRY
+Added Pin To Net: NetName=X Pin=IC1-27
+Added Pin To Net: NetName=X Pin=X2-2
+Added Net: Name=X
+Added Pin To Net: NetName=Y Pin=IC1-28
+Added Pin To Net: NetName=Y Pin=Y1-2
+Added Net: Name=Y
+Added Pin To Net: NetName=Z Pin=IC1-29
+Added Pin To Net: NetName=Z Pin=Z1-2
+Added Net: Name=Z
+Added Member To Class: ClassName=Sheet1 Member=Component A1 SW-PB
+Added Member To Class: ClassName=Sheet1 Member=Component B2 SW-PB
+Added Member To Class: ClassName=Sheet1 Member=Component ButtonL SW-PB
+Added Member To Class: ClassName=Sheet1 Member=Component ButtonR SW-PB
+Added Member To Class: ClassName=Sheet2 Member=Component C8 10uF
+Added Member To Class: ClassName=Sheet2 Member=Component C9 0.1uF
+Added Member To Class: ClassName=Sheet2 Member=Component CN1 USBA_FEMALE
+Added Member To Class: ClassName=Sheet1 Member=Component DOWN1 SW-PB
+Added Member To Class: ClassName=Sheet1 Member=Component ISP6 PINHD-2X3THM
+Added Member To Class: ClassName=Sheet1 Member=Component LEFT1 SW-PB
+Added Member To Class: ClassName=Sheet1 Member=Component P1 VolateOut
+Added Member To Class: ClassName=Sheet1 Member=Component P2 Joyistick
+Added Member To Class: ClassName=Sheet2 Member=Component R6 1.87M
+Added Member To Class: ClassName=Sheet2 Member=Component R7 340K
+Added Member To Class: ClassName=Sheet2 Member=Component R8 1.87M
+Added Member To Class: ClassName=Sheet2 Member=Component R9 200K
+Added Member To Class: ClassName=Sheet2 Member=Component R10 1K
+Added Member To Class: ClassName=Sheet2 Member=Component R11 1K
+Added Member To Class: ClassName=Sheet2 Member=Component R12 200K
+Added Member To Class: ClassName=Sheet2 Member=Component R13 43K
+Added Member To Class: ClassName=Sheet2 Member=Component R14 49.9K
+Added Member To Class: ClassName=Sheet2 Member=Component R15 75K 1%
+Added Member To Class: ClassName=Sheet2 Member=Component R16 49.9K 1%
+Added Member To Class: ClassName=Sheet2 Member=Component R17 1K
+Added Member To Class: ClassName=Sheet2 Member=Component R18 1K
+Added Member To Class: ClassName=Sheet2 Member=Component R19 270K
+Added Member To Class: ClassName=Sheet2 Member=Component R20 100K
+Added Member To Class: ClassName=Sheet2 Member=Component R21 1.0K
+Added Member To Class: ClassName=Sheet2 Member=Component R22 100K
+Added Member To Class: ClassName=Sheet1 Member=Component RIGHT1 SW-PB
+Added Member To Class: ClassName=Sheet1 Member=Component SELECT1 SW-PB
+Added Member To Class: ClassName=Sheet1 Member=Component START1 SW-PB
+Added Member To Class: ClassName=Sheet1 Member=Component UP1 SW-PB
+Added Member To Class: ClassName=Sheet1 Member=Component X2 SW-PB
+Added Member To Class: ClassName=Sheet1 Member=Component Y1 SW-PB
+Added Member To Class: ClassName=Sheet1 Member=Component Z1 SW-PB
+Added Room: Name=Sheet1
+Added Room: Name=Sheet2

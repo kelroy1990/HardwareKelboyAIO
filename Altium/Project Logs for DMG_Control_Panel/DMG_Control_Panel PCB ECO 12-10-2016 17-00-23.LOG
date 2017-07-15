@@ -1,0 +1,9 @@
+Change Physical Footprint: Designator=A Old Footprint=DMG-BTN New Footprint=DMG-BTN
+Change Physical Footprint: Designator=B Old Footprint=DMG-BTN New Footprint=DMG-BTN
+Change Physical Footprint: Designator=DOWN Old Footprint=DMG-BTN New Footprint=DMG-BTN
+Change Physical Footprint: Designator=LEFT Old Footprint=DMG-BTN New Footprint=DMG-BTN
+Change Physical Footprint: Designator=RIGHT Old Footprint=DMG-BTN New Footprint=DMG-BTN
+Change Physical Footprint: Designator=UP Old Footprint=DMG-BTN New Footprint=DMG-BTN
+Change Physical Footprint: Designator=X Old Footprint=DMG-BTN -XY New Footprint=DMG-BTN -XY
+Change Physical Footprint: Designator=Y Old Footprint=DMG-BTN -XY New Footprint=DMG-BTN -XY
+Change Physical Footprint: Designator=Z Old Footprint=DMG-BTN -XY New Footprint=DMG-BTN -XY

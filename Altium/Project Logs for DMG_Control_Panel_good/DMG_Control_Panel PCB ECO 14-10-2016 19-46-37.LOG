@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=VBAT Pin=L1-P$1
+Change Component Footprint: Designator=T1 Old Footprint=1X03_1.0MM New Footprint=MMUN2133LT1G
+Added Pin To Net: NetName=VBUS Pin=CHRG/LBO-1
+Added Pin To Net: NetName=VBUS Pin=DONE-1
+Added Pin To Net: NetName=GND Pin=LED2-2
+Added Pin To Net: NetName=LBO Pin=T1-1
+Added Pin To Net: NetName=VBAT Pin=T1-2
+Added Pin To Net: NetName=NetR10_2 Pin=T1-3
+Added Pin To Net: NetName=NetCHRG/LBO_2 Pin=CHRG/LBO-2
+Added Pin To Net: NetName=NetCHRG/LBO_2 Pin=R17-2
+Added Net: Name=NetCHRG/LBO_2
+Added Pin To Net: NetName=NetDONE_2 Pin=DONE-2
+Added Pin To Net: NetName=NetDONE_2 Pin=R18-2
+Added Net: Name=NetDONE_2
+Added Net: Name=NetL1_2
+Added Pin To Net: NetName=NetLED2_1 Pin=LED2-1
+Added Pin To Net: NetName=NetLED2_1 Pin=R11-2
+Added Net: Name=NetLED2_1

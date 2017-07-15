@@ -1,0 +1,25 @@
+Change Component Designator: OldDesignator=U1 NewDesignator=U2
+Change Component Designator: OldDesignator=U2 NewDesignator=U1
+Added Pin To Net: NetName=VBAT Pin=U1-1
+Added Pin To Net: NetName=NetR19_1 Pin=U1-2
+Added Pin To Net: NetName=VBUS Pin=U1-3
+Added Pin To Net: NetName=VBUS Pin=U1-4
+Added Pin To Net: NetName=NetTHERM_2 Pin=U1-5
+Added Pin To Net: NetName=NetR18_1 Pin=U1-7
+Added Pin To Net: NetName=NetR17_1 Pin=U1-8
+Added Pin To Net: NetName=VBUS Pin=U1-9
+Added Pin To Net: NetName=GND Pin=U1-10
+Added Pin To Net: NetName=GND Pin=U1-11
+Added Pin To Net: NetName=NetR22_2 Pin=U1-12
+Added Pin To Net: NetName=NetR21_2 Pin=U1-13
+Added Pin To Net: NetName=VLIPO Pin=U1-14
+Added Pin To Net: NetName=VLIPO Pin=U1-15
+Added Pin To Net: NetName=VLIPO Pin=U1-16
+Added Pin To Net: NetName=VBUS Pin=U1-17
+Added Pin To Net: NetName=VBUS Pin=U1-18
+Added Pin To Net: NetName=VBUS Pin=U1-19
+Added Pin To Net: NetName=VBAT Pin=U1-20
+Added Pin To Net: NetName=GND Pin=U1-21
+Change Class Name : Old Net Name=Sheet2 New Net Name=Powerbost
+Change Room Name: Old Name=Sheet2 New Name=Powerbost
+Change Room Scope: Old Scope=InComponentClass('Sheet2') New Scope=InComponentClass('Powerbost')

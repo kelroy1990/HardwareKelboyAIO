@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=GAIN1 Pin=P5-1
+Removed Pin From Net: NetName=GAIN2 Pin=P5-2
+Removed Pin From Net: NetName=IN_RIGHT+ Pin=P5-3
+Removed Pin From Net: NetName=IN_RIGHT- Pin=P5-4
+Removed Pin From Net: NetName=IN_LEFT- Pin=P5-5
+Removed Pin From Net: NetName=IN_LEFT+ Pin=P5-6
+Removed Member From Class: ClassName=Powerbost Member=ButtonL1
+Removed Member From Class: ClassName=Sheet3 Member=P5
+Added Component: Designator=A-P(HDR1X4)
+Added Pin To Net: NetName=IN_RIGHT+ Pin=A-P-1
+Added Pin To Net: NetName=IN_RIGHT- Pin=A-P-2
+Added Pin To Net: NetName=IN_LEFT- Pin=A-P-3
+Added Pin To Net: NetName=IN_LEFT+ Pin=A-P-4
+Added Member To Class: ClassName=Sheet3 Member=Component A-P Header 4
+Added Member To Class: ClassName=Powerbost Member=Component L1 6.8uH
+Added Room: Name=Powerbost
+Added Room: Name=Sheet1
+Added Room: Name=Sheet3

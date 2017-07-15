@@ -1,0 +1,6 @@
+Remove Pin=R29-1 From Net=INL
+Remove Pin=R30-1 From Net=INR
+Change Component Designator: OldDesignator=LIPO IN NewDesignator=LIPO
+Change Component Designator: OldDesignator=PAM1 NewDesignator=PAM
+Change Net Color : Net Name= USB1_N Old Net Color=Default New Net Color=RGB(158, 161, 117)
+Change Net Color : Net Name= USB1_P Old Net Color=Default New Net Color=RGB(158, 161, 117)

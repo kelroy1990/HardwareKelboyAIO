@@ -1,0 +1,262 @@
+Removed Pin From Net: NetName=NetBost-At_1 Pin=5V-1
+Removed Pin From Net: NetName=NetBost-At_2 Pin=15-1
+Removed Pin From Net: NetName=NetBost-At_2 Pin=A-R3-2
+Removed Pin From Net: NetName=NetBost-At_2 Pin=A-R5-2
+Removed Pin From Net: NetName=NetBost-At_2 Pin=Bost-At-2
+Removed Pin From Net: NetName=START Pin=IC1-28
+Removed Pin From Net: NetName=NetR12_2 Pin=IC1-37
+Removed Pin From Net: NetName=NetBost-At_2 Pin=L2-1
+Removed Pin From Net: NetName=NetL1_2 Pin=TSP-4
+Removed Pin From Net: NetName=GND Pin=TSP-6
+Removed Pin From Net: NetName=GND Pin=TSP-7
+Removed Pin From Net: NetName=NetBost-At_1 Pin=TSP-15
+Removed Pin From Net: NetName=NetBost-At_1 Pin=TSP-16
+Removed Pin From Net: NetName=GND Pin=TSP-17
+Change Component Designator: OldDesignator= NewDesignator=SELECT1
+Change Component Designator: OldDesignator= NewDesignator=START1
+Change Component Designator: OldDesignator=5V NewDesignator=P1
+Change Component Designator: OldDesignator=9 NewDesignator=A-J4
+Change Component Designator: OldDesignator=12 NewDesignator=A-J3
+Change Component Designator: OldDesignator=15 NewDesignator=A-J2
+Change Component Designator: OldDesignator=18 NewDesignator=A-J1
+Change Component Designator: OldDesignator=L1 NewDesignator=ButtonL1
+Change Component Designator: OldDesignator=Load NewDesignator=L
+Change Component Designator: OldDesignator=R1 NewDesignator=ButtonR1
+Change Component Designator: OldDesignator=TH NewDesignator=THERM
+Change Component Designator: OldDesignator=U1 NewDesignator=U2
+Added Component: Designator=1AMP(0603)
+Added Component: Designator=1(0805)
+Added Component: Designator=2(0805)
+Added Component: Designator=3(0805)
+Added Component: Designator=4(0805)
+Added Component: Designator=5(0805)
+Added Component: Designator=12MHZ(Res12MHZ)
+Added Component: Designator=C5(1206)
+Added Component: Designator=C14(0603)
+Added Component: Designator=C15(0603)
+Added Component: Designator=C16(1206)
+Added Component: Designator=C17(0603)
+Added Component: Designator=C18(1206)
+Added Component: Designator=C19(1206)
+Added Component: Designator=C20(0603)
+Added Component: Designator=C21(1206)
+Added Component: Designator=C22(1206)
+Added Component: Designator=C23(0603)
+Added Component: Designator=C24(1206)
+Added Component: Designator=HUB(SSOP28DB)
+Added Component: Designator=P2(MHDR1X4)
+Added Component: Designator=PI5V(PIN1)
+Added Component: Designator=R13(1206)
+Added Component: Designator=R14(1206)
+Added Component: Designator=R15(1206)
+Added Component: Designator=R16(1206)
+Added Component: Designator=R23(1206)
+Added Component: Designator=R24(1206)
+Added Component: Designator=R25(1206)
+Added Component: Designator=R26(1206)
+Added Component: Designator=S1(Switch)
+Added Component: Designator=S-D1(SOD-123)
+Added Component: Designator=S-Q1(SOT-23 TO236)
+Added Component: Designator=S-R1(1206)
+Added Component: Designator=S-R2(1206)
+Added Component: Designator=SJ3(JUMPER)
+Added Component: Designator=USB_1(USBPADS)
+Added Component: Designator=USB_2(USBPADS)
+Added Component: Designator=USB_3(USBPADS)
+Added Component: Designator=USB_4(USBPADS)
+Added Component: Designator=USB_RPI(USBPADS)
+Added Component: Designator=X1(TERMBLOCK_1X2-3.5MM)
+Added Component: Designator=Z1(DMG-BTN -XY)
+Added Pin To Net: NetName=NetBost-At_1 Pin=A-J2-1
+Added Pin To Net: NetName=NetBost-At_1 Pin=A-R3-2
+Added Pin To Net: NetName=NetBost-At_1 Pin=A-R5-2
+Added Pin To Net: NetName=GND Pin=C14-2
+Added Pin To Net: NetName=GND Pin=C17-1
+Added Pin To Net: NetName=GND Pin=C18-2
+Added Pin To Net: NetName=GND Pin=C20-1
+Added Pin To Net: NetName=GND Pin=C21-1
+Added Pin To Net: NetName=GND Pin=C22-1
+Added Pin To Net: NetName=GND Pin=C23-1
+Added Pin To Net: NetName=GND Pin=HUB-1
+Added Pin To Net: NetName=Z Pin=IC1-28
+Added Pin To Net: NetName=START Pin=IC1-37
+Added Pin To Net: NetName=+5V Pin=P1-1
+Added Pin To Net: NetName=VRY Pin=P2-1
+Added Pin To Net: NetName=VRX Pin=P2-2
+Added Pin To Net: NetName=+5V Pin=P2-3
+Added Pin To Net: NetName=GND Pin=P2-4
+Added Pin To Net: NetName=GND Pin=R14-1
+Added Pin To Net: NetName=GND Pin=R16-1
+Added Pin To Net: NetName=GND Pin=R26-1
+Added Pin To Net: NetName=NetR12_2 Pin=S1-1
+Added Pin To Net: NetName=GND Pin=S-Q1-1
+Added Pin To Net: NetName=GND Pin=USB_1-4
+Added Pin To Net: NetName=GND Pin=USB_1-5
+Added Pin To Net: NetName=GND Pin=USB_2-4
+Added Pin To Net: NetName=GND Pin=USB_2-5
+Added Pin To Net: NetName=GND Pin=USB_3-4
+Added Pin To Net: NetName=GND Pin=USB_3-5
+Added Pin To Net: NetName=GND Pin=USB_4-4
+Added Pin To Net: NetName=GND Pin=USB_4-5
+Added Pin To Net: NetName=GND Pin=USB_RPI-4
+Added Pin To Net: NetName=GND Pin=USB_RPI-5
+Added Pin To Net: NetName=GND Pin=X1-1
+Added Pin To Net: NetName=NetBost-At_1 Pin=X1-2
+Added Pin To Net: NetName=GND Pin=Z1-1
+Added Pin To Net: NetName=Z Pin=Z1-2
+Change Net Name : Old Net Name=NetBost-At_1 New Net Name=NetA-J2_1
+Change Net Name : Old Net Name=NetBost-At_2 New Net Name=VDD
+Change Net Name : Old Net Name=NetJ1_2 New Net Name=LOUT+
+Change Net Name : Old Net Name=NetJ2_2 New Net Name=ROUT-
+Added Pin To Net: NetName=3.3V Pin=S1-5
+Added Pin To Net: NetName=3.3V Pin=S-D1-2
+Added Net: Name=3.3V
+Added Pin To Net: NetName=DRV Pin=1-1
+Added Pin To Net: NetName=DRV Pin=2-1
+Added Pin To Net: NetName=DRV Pin=3-2
+Added Pin To Net: NetName=DRV Pin=4-2
+Added Pin To Net: NetName=DRV Pin=5-1
+Added Pin To Net: NetName=DRV Pin=HUB-22
+Added Pin To Net: NetName=DRV Pin=R24-2
+Added Pin To Net: NetName=DRV Pin=R25-2
+Added Net: Name=DRV
+Added Pin To Net: NetName=LED1 Pin=HUB-23
+Added Pin To Net: NetName=LED1 Pin=R25-1
+Added Net: Name=LED1
+Added Pin To Net: NetName=LED2 Pin=HUB-24
+Added Pin To Net: NetName=LED2 Pin=R24-1
+Added Net: Name=LED2
+Added Pin To Net: NetName=Net1_2 Pin=1-2
+Added Pin To Net: NetName=Net1_2 Pin=3-1
+Added Net: Name=Net1_2
+Added Pin To Net: NetName=Net1AMP_1 Pin=1AMP-1
+Added Pin To Net: NetName=Net1AMP_1 Pin=PI5V-1
+Added Net: Name=Net1AMP_1
+Added Pin To Net: NetName=Net1AMP_2 Pin=1AMP-2
+Added Pin To Net: NetName=Net1AMP_2 Pin=C5-2
+Added Pin To Net: NetName=Net1AMP_2 Pin=C16-2
+Added Pin To Net: NetName=Net1AMP_2 Pin=C17-2
+Added Pin To Net: NetName=Net1AMP_2 Pin=C19-2
+Added Pin To Net: NetName=Net1AMP_2 Pin=C24-2
+Added Pin To Net: NetName=Net1AMP_2 Pin=R13-2
+Added Pin To Net: NetName=Net1AMP_2 Pin=SJ3-2
+Added Pin To Net: NetName=Net1AMP_2 Pin=USB_RPI-1
+Added Net: Name=Net1AMP_2
+Added Pin To Net: NetName=Net2_2 Pin=2-2
+Added Pin To Net: NetName=Net2_2 Pin=4-1
+Added Net: Name=Net2_2
+Added Pin To Net: NetName=Net5_2 Pin=5-2
+Added Pin To Net: NetName=Net5_2 Pin=R26-2
+Added Net: Name=Net5_2
+Added Pin To Net: NetName=Net12MHZ_1 Pin=12MHZ-1
+Added Pin To Net: NetName=Net12MHZ_1 Pin=C20-2
+Added Net: Name=Net12MHZ_1
+Added Pin To Net: NetName=Net12MHZ_2 Pin=12MHZ-2
+Added Pin To Net: NetName=Net12MHZ_2 Pin=C14-1
+Added Net: Name=Net12MHZ_2
+Added Pin To Net: NetName=NetBost-At_2 Pin=Bost-At-2
+Added Pin To Net: NetName=NetBost-At_2 Pin=L2-1
+Added Net: Name=NetBost-At_2
+Added Pin To Net: NetName=NetC5_1 Pin=C5-1
+Added Pin To Net: NetName=NetC5_1 Pin=USB_1-1
+Added Net: Name=NetC5_1
+Added Pin To Net: NetName=NetC15_1 Pin=C15-1
+Added Pin To Net: NetName=NetC15_1 Pin=HUB-28
+Added Net: Name=NetC15_1
+Added Pin To Net: NetName=NetC16_1 Pin=C16-1
+Added Pin To Net: NetName=NetC16_1 Pin=USB_2-1
+Added Net: Name=NetC16_1
+Added Pin To Net: NetName=NetC19_1 Pin=C19-1
+Added Pin To Net: NetName=NetC19_1 Pin=USB_3-1
+Added Net: Name=NetC19_1
+Added Pin To Net: NetName=NetC21_2 Pin=C21-2
+Added Pin To Net: NetName=NetC21_2 Pin=C22-2
+Added Pin To Net: NetName=NetC21_2 Pin=HUB-20
+Added Pin To Net: NetName=NetC21_2 Pin=SJ3-1
+Added Net: Name=NetC21_2
+Added Pin To Net: NetName=NetC24_1 Pin=C24-1
+Added Pin To Net: NetName=NetC24_1 Pin=USB_4-1
+Added Net: Name=NetC24_1
+Added Pin To Net: NetName=NetHUB_4 Pin=HUB-4
+Added Pin To Net: NetName=NetHUB_4 Pin=USB_4-2
+Added Net: Name=NetHUB_4
+Added Pin To Net: NetName=NetHUB_5 Pin=HUB-5
+Added Pin To Net: NetName=NetHUB_5 Pin=USB_4-3
+Added Net: Name=NetHUB_5
+Added Pin To Net: NetName=NetHUB_6 Pin=HUB-6
+Added Pin To Net: NetName=NetHUB_6 Pin=USB_3-2
+Added Net: Name=NetHUB_6
+Added Pin To Net: NetName=NetHUB_7 Pin=HUB-7
+Added Pin To Net: NetName=NetHUB_7 Pin=USB_3-3
+Added Net: Name=NetHUB_7
+Added Pin To Net: NetName=NetHUB_8 Pin=HUB-8
+Added Pin To Net: NetName=NetHUB_8 Pin=USB_2-2
+Added Net: Name=NetHUB_8
+Added Pin To Net: NetName=NetHUB_9 Pin=HUB-9
+Added Pin To Net: NetName=NetHUB_9 Pin=USB_2-3
+Added Net: Name=NetHUB_9
+Added Pin To Net: NetName=NetHUB_10 Pin=HUB-10
+Added Pin To Net: NetName=NetHUB_10 Pin=USB_1-2
+Added Net: Name=NetHUB_10
+Added Pin To Net: NetName=NetHUB_11 Pin=HUB-11
+Added Pin To Net: NetName=NetHUB_11 Pin=USB_1-3
+Added Net: Name=NetHUB_11
+Added Pin To Net: NetName=NetHUB_14 Pin=HUB-14
+Added Pin To Net: NetName=NetHUB_14 Pin=R16-2
+Added Net: Name=NetHUB_14
+Added Pin To Net: NetName=NetHUB_15 Pin=HUB-15
+Added Pin To Net: NetName=NetHUB_15 Pin=R1-1
+Added Pin To Net: NetName=NetHUB_15 Pin=USB_RPI-2
+Added Net: Name=NetHUB_15
+Added Pin To Net: NetName=NetHUB_16 Pin=HUB-16
+Added Pin To Net: NetName=NetHUB_16 Pin=R2-1
+Added Pin To Net: NetName=NetHUB_16 Pin=USB_RPI-3
+Added Net: Name=NetHUB_16
+Added Pin To Net: NetName=NetHUB_17 Pin=HUB-17
+Added Pin To Net: NetName=NetHUB_17 Pin=R23-2
+Added Net: Name=NetHUB_17
+Added Pin To Net: NetName=NetHUB_19 Pin=HUB-19
+Added Pin To Net: NetName=NetHUB_19 Pin=R15-2
+Added Net: Name=NetHUB_19
+Added Pin To Net: NetName=NetS1_2 Pin=S1-2
+Added Pin To Net: NetName=NetS1_2 Pin=S-Q1-2
+Added Pin To Net: NetName=NetS1_2 Pin=S-R1-1
+Added Net: Name=NetS1_2
+Added Pin To Net: NetName=NetS1_6 Pin=S1-6
+Added Net: Name=NetS1_6
+Added Pin To Net: NetName=NetS-D1_1 Pin=S-D1-1
+Added Pin To Net: NetName=NetS-D1_1 Pin=S-R2-2
+Added Net: Name=NetS-D1_1
+Added Pin To Net: NetName=NetS-Q1_3 Pin=S-Q1-3
+Added Pin To Net: NetName=NetS-Q1_3 Pin=S-R1-2
+Added Net: Name=NetS-Q1_3
+Added Pin To Net: NetName=NetS-R2_1 Pin=S-R2-1
+Added Pin To Net: NetName=NetS-R2_1 Pin=T1-1
+Added Pin To Net: NetName=NetS-R2_1 Pin=TSP-12
+Added Net: Name=NetS-R2_1
+Added Pin To Net: NetName=VBUSM Pin=HUB-18
+Added Pin To Net: NetName=VBUSM Pin=R13-1
+Added Pin To Net: NetName=VBUSM Pin=R14-2
+Added Net: Name=VBUSM
+Added Pin To Net: NetName=VCC1_8 Pin=C15-2
+Added Net: Name=VCC1_8
+Added Pin To Net: NetName=VCC3_3 Pin=C18-1
+Added Pin To Net: NetName=VCC3_3 Pin=C23-2
+Added Pin To Net: NetName=VCC3_3 Pin=HUB-13
+Added Pin To Net: NetName=VCC3_3 Pin=HUB-21
+Added Pin To Net: NetName=VCC3_3 Pin=HUB-26
+Added Pin To Net: NetName=VCC3_3 Pin=R15-1
+Added Pin To Net: NetName=VCC3_3 Pin=R23-1
+Added Net: Name=VCC3_3
+Added Class: Name=Sheet2
+Added Member To Class: ClassName=Sheet1 Member=Component IC1 ATMEGA32U4-AU
+Added Member To Class: ClassName=Sheet1 Member=Component P2 Joyistick
+Added Member To Class: ClassName=Sheet1 Member=Component R1 22
+Added Member To Class: ClassName=Sheet1 Member=Component SELECT1 SW-PB
+Added Member To Class: ClassName=Sheet1 Member=Component START1 SW-PB
+Added Member To Class: ClassName=Powerbost Member=Component X1 TERMBLOCK_1X2
+Added Member To Class: ClassName=Sheet1 Member=Component Z1 SW-PB
+Added Room: Name=Powerbost
+Added Room: Name=Sheet1
+Added Room: Name=Sheet2
+Added Room: Name=Sheet3

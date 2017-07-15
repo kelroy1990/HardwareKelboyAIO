@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=MISO Pin=ISP6-1
+Removed Pin From Net: NetName=RST Pin=ISP6-5
+Removed Pin From Net: NetName=GND Pin=ISP6-6
+Added Pin To Net: NetName=GND Pin=ISP6-1
+Added Pin To Net: NetName=MISO Pin=ISP6-5
+Added Pin To Net: NetName=RST Pin=ISP6-6
+Added Room: Name=Sheet1

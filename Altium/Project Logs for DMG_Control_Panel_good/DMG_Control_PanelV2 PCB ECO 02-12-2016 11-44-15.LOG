@@ -1,0 +1,32 @@
+Added Component: Designator=5V(TERMBLOCK_1X2-3.5MM)
+Added Component: Designator=C5(1206)
+Added Component: Designator=USB_1(USBPADS)
+Added Component: Designator=Z1(DMG-BTN -XY)
+Added Pin To Net: NetName=GND Pin=5V-1
+Added Pin To Net: NetName=Net5V_2 Pin=5V-2
+Added Pin To Net: NetName=NetC5_1 Pin=C5-1
+Added Pin To Net: NetName=Net1AMP_2 Pin=C5-2
+Added Pin To Net: NetName=VCC1_8 Pin=C15-2
+Added Pin To Net: NetName=NetC5_1 Pin=USB_1-1
+Added Pin To Net: NetName=NetHUB_10 Pin=USB_1-2
+Added Pin To Net: NetName=NetHUB_11 Pin=USB_1-3
+Added Pin To Net: NetName=GND Pin=USB_1-4
+Added Pin To Net: NetName=GND Pin=Z1-1
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Default
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Default
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Default
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Default
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Default
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Default
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Default
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Default
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Default
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Default
+Added Member To Class: ClassName=PowerBoost_kel Member=Component 5V TERMBLOCK_1X2
+Added Member To Class: ClassName=Sheet2 Member=Component C5 Cap
+Added Member To Class: ClassName=Sheet2 Member=Component USB_1 USB_4pin
+Added Member To Class: ClassName=Sheet1 Member=Component Z1 SW-PB
+Added Room: Name=Audio_Actual
+Added Room: Name=PowerBoost_kel
+Added Room: Name=Sheet1
+Added Room: Name=Sheet2

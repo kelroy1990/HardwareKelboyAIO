@@ -1,0 +1,21 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [DMG_Control_Panel_good.PrjPcb]
+   Generated File[DMG_Control_PanelV2.GTL]
+   Generated File[DMG_Control_PanelV2.GBL]
+   Generated File[DMG_Control_PanelV2.GTO]
+   Generated File[DMG_Control_PanelV2.GTP]
+   Generated File[DMG_Control_PanelV2.GTS]
+   Generated File[DMG_Control_PanelV2.GBS]
+   Generated File[DMG_Control_PanelV2.GBP]
+   Generated File[DMG_Control_PanelV2.GBO]
+   Generated File[DMG_Control_PanelV2.GM1]
+   Generated File[DMG_Control_PanelV2.RUL]
+   Generated File[DMG_Control_PanelV2.EXTREP]
+   Generated File[DMG_Control_PanelV2.REP]
+
+
+Files Generated   : 12
+Documents Printed : 0
+
+Finished Output Generation At 18:29:17 On 28/11/2016

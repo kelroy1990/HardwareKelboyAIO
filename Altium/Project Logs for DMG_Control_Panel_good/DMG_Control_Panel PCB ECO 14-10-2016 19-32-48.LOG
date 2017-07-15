@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=5VPOWERBOOST Pin=L2-1
+Change Net Name : Old Net Name=5VPOWERBOOST New Net Name=NetC12_1
+Added Pin To Net: NetName=5VPOWERBOOST Pin=L2-1
+Added Net: Name=5VPOWERBOOST

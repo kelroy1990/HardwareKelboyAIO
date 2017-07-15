@@ -1,0 +1,4 @@
+Added Component: Designator=C13(RES-0805)
+Added Pin To Net: NetName=NetC12_1 Pin=C13-1
+Added Pin To Net: NetName=GND Pin=C13-2
+Added Member To Class: ClassName=Powerbost Member=Component C13 100uF

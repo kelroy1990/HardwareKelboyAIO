@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=X4 Old Footprint=Resonador3.2x2.5 New Footprint=Res12MHZ-smd
+Change Physical Footprint: Designator=A-R1 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=R13 Old Footprint=1206 New Footprint=1206
+Change Physical Footprint: Designator=S-D1 Old Footprint=SOD-123 New Footprint=SOD-123
+Change Physical Footprint: Designator=X4 Old Footprint=Res12MHZ-smd New Footprint=Res12MHZ-smd

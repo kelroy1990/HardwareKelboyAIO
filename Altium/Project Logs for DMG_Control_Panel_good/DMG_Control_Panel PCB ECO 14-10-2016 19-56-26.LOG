@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=GND Pin=B1-1
+Removed Pin From Net: NetName=VLIPO Pin=B1-2
+Removed Member From Class: ClassName=Powerbost Member=B1
+Added Component: Designator=BateryIn(HDR1X2)
+Added Pin To Net: NetName=VLIPO Pin=BateryIn-1
+Added Pin To Net: NetName=GND Pin=BateryIn-2
+Added Member To Class: ClassName=Powerbost Member=Component BateryIn Header 2

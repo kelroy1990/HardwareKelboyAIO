@@ -1,0 +1,5 @@
+Remove Pin=HUB-17 From Net=VCC3_3
+Remove Pin=HUB-19 From Net=VCC3_3
+Remove Pin=Z1-2 From Net=Z
+Change Pin Designator/Name:  Old Designator=X4-1 Old Name=XTAL1 New Designator =XTAL1 New Name=1
+Change Pin Designator/Name:  Old Designator=X4-3 Old Name=XTAL2 New Designator =XTAL2 New Name=3

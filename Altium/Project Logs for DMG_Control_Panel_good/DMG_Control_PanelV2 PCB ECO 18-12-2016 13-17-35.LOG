@@ -1,0 +1,64 @@
+Removed Pin From Net: NetName=GND Pin=C15-1
+Removed Pin From Net: NetName=NetL1_2 Pin=TSP-4
+Removed Pin From Net: NetName=GND Pin=TSP-6
+Removed Pin From Net: NetName=GND Pin=TSP-7
+Removed Pin From Net: NetName=Net5V_2 Pin=TSP-15
+Removed Pin From Net: NetName=Net5V_2 Pin=TSP-16
+Added Component: Designator=5V(TERMBLOCK_1X2-3.5MM)
+Added Component: Designator=C5(1206)
+Added Component: Designator=C35(0805)
+Added Component: Designator=C36(0805)
+Added Component: Designator=C37(0805)
+Added Component: Designator=C38(0805)
+Added Component: Designator=R27(0805)
+Added Component: Designator=R28(0805)
+Added Component: Designator=R29(0805)
+Added Component: Designator=R30(0805)
+Added Component: Designator=USB_1(USBPADS)
+Added Component: Designator=Z1(DMG-BTN -XY)
+Added Pin To Net: NetName=GND Pin=5V-1
+Added Pin To Net: NetName=Net5V_2 Pin=5V-2
+Added Pin To Net: NetName=NetC5_1 Pin=C5-1
+Added Pin To Net: NetName=Net1AMP_2 Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C15-2
+Added Pin To Net: NetName=GND Pin=C35-2
+Added Pin To Net: NetName=GND Pin=C38-1
+Added Pin To Net: NetName=GND Pin=R27-2
+Added Pin To Net: NetName=GND Pin=R28-1
+Added Pin To Net: NetName=NetC5_1 Pin=USB_1-1
+Added Pin To Net: NetName=USB1_N Pin=USB_1-2
+Added Pin To Net: NetName=USB1_P Pin=USB_1-3
+Added Pin To Net: NetName=GND Pin=USB_1-4
+Added Pin To Net: NetName=GND Pin=Z1-1
+Added Pin To Net: NetName=NetC33_1 Pin=C33-1
+Added Pin To Net: NetName=NetC33_1 Pin=C36-2
+Added Net: Name=NetC33_1
+Added Pin To Net: NetName=NetC34_1 Pin=C34-1
+Added Pin To Net: NetName=NetC34_1 Pin=C37-2
+Added Net: Name=NetC34_1
+Added Pin To Net: NetName=NetC35_1 Pin=C35-1
+Added Pin To Net: NetName=NetC35_1 Pin=C36-1
+Added Pin To Net: NetName=NetC35_1 Pin=R27-1
+Added Pin To Net: NetName=NetC35_1 Pin=R29-2
+Added Net: Name=NetC35_1
+Added Pin To Net: NetName=NetC37_1 Pin=C37-1
+Added Pin To Net: NetName=NetC37_1 Pin=C38-2
+Added Pin To Net: NetName=NetC37_1 Pin=R28-2
+Added Pin To Net: NetName=NetC37_1 Pin=R30-2
+Added Net: Name=NetC37_1
+Added Member To Class: ClassName=PowerBoost_kel Member=Component 5V TERMBLOCK_1X2
+Added Member To Class: ClassName=Sheet2 Member=Component C5 Cap
+Added Member To Class: ClassName=Audio_Actual Member=Component C35 Cap
+Added Member To Class: ClassName=Audio_Actual Member=Component C36 Cap
+Added Member To Class: ClassName=Audio_Actual Member=Component C37 Cap
+Added Member To Class: ClassName=Audio_Actual Member=Component C38 Cap
+Added Member To Class: ClassName=Audio_Actual Member=Component R27 Res2
+Added Member To Class: ClassName=Audio_Actual Member=Component R28 Res2
+Added Member To Class: ClassName=Audio_Actual Member=Component R29 Res2
+Added Member To Class: ClassName=Audio_Actual Member=Component R30 Res2
+Added Member To Class: ClassName=Sheet2 Member=Component USB_1 USB_4pin
+Added Member To Class: ClassName=Sheet1 Member=Component Z1 SW-PB
+Added Room: Name=Audio_Actual
+Added Room: Name=PowerBoost_kel
+Added Room: Name=Sheet1
+Added Room: Name=Sheet2

@@ -1,0 +1,64 @@
+PCAD Importer Log
+Project : TPS61090.LibPkg
+
+Section : C:\Users\Carlos\Dropbox\GameBoyPi\Altium\TPS61090.lia
+    Section : PCB Library - TPS61090.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token poly On Line 114
+            Warning - 1 : Skipping Token poly On Line 122
+            Warning - 1 : Skipping Token TPS61090 On Line 131
+            Warning - 1 : Skipping Token attachedSymbol On Line 317
+        EndSection
+
+        Section : Import Messages
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : No Shape solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+        EndSection
+    EndSection
+
+    Section : SCH Library - TPS61090.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token multiLayer On Line 72
+            Warning - 1 : Skipping Token layerContents On Line 91
+            Warning - 1 : Skipping Token layerContents On Line 99
+            Warning - 1 : Skipping Token layerContents On Line 113
+            Warning - 1 : Skipping Token layerContents On Line 121
+        EndSection
+
+        Section : Generating SCH Library - TPS61090.SchLib
+        EndSection
+    EndSection
+EndSection

@@ -1,0 +1,187 @@
+Removed Pin From Net: NetName=+3V3 Pin=C1-1
+Removed Pin From Net: NetName=VCC Pin=C6-1
+Removed Pin From Net: NetName=VCC Pin=C7-1
+Removed Pin From Net: NetName=NetCN1_D- Pin=R1-1
+Removed Pin From Net: NetName=NetIC1_3 Pin=R1-2
+Removed Pin From Net: NetName=NetCN1_D+ Pin=R2-1
+Removed Pin From Net: NetName=NetIC1_4 Pin=R2-2
+Removed Pin From Net: NetName=NetPWR_A Pin=R3-1
+Removed Pin From Net: NetName=+5V Pin=R3-2
+Removed Pin From Net: NetName=NetIC1_33 Pin=R4-1
+Removed Pin From Net: NetName=VCC Pin=R4-2
+Removed Pin From Net: NetName=NetL_C Pin=R5-1
+Removed Pin From Net: NetName=GND Pin=R5-2
+Change Component DesignItemId : Designator=C6 Old DesignItemId=C-USC0805K New DesignItemId=C-USC1210
+Change Component DesignItemId : Designator=C1 Old DesignItemId=C-USC0805K New DesignItemId=CAP_CERAMIC0805-NOOUTLINE
+Change Component DesignItemId : Designator=C7 Old DesignItemId=C-USC0805K New DesignItemId=CAP_CERAMIC0805-NOOUTLINE
+Change Component DesignItemId : Designator=R3 Old DesignItemId=R-US_R0805 New DesignItemId=RESISTOR0805_NOOUTLINE
+Change Component DesignItemId : Designator=R4 Old DesignItemId=R-US_R0805 New DesignItemId=RESISTOR0805_NOOUTLINE
+Change Component DesignItemId : Designator=R5 Old DesignItemId=R-US_R0805 New DesignItemId=RESISTOR0805_NOOUTLINE
+Change Component DesignItemId : Designator=R1 Old DesignItemId=R-US_R0805 New DesignItemId=RESISTOR_0805MP
+Change Component DesignItemId : Designator=R2 Old DesignItemId=R-US_R0805 New DesignItemId=RESISTOR_0805MP
+Change Component Footprint: Designator=C6 Old Footprint=Res-0603 New Footprint=C1210
+Change Component Footprint: Designator=R1 Old Footprint=RES-1206in New Footprint=_0805MP
+Change Component Footprint: Designator=R2 Old Footprint=RES-1206in New Footprint=_0805MP
+Change Component Comment : Designator=C1 Old Comment=0.1uF New Comment=10uF
+Change Component Comment : Designator=C7 Old Comment=0.1uF New Comment=10uF
+Change Component Comment : Designator=C6 Old Comment=0.1uF New Comment=100uF
+Change Component Comment : Designator=R3 Old Comment=1K New Comment=1.87M
+Change Component Comment : Designator=R4 Old Comment=10K New Comment=200K
+Change Component Comment : Designator=R1 Old Comment=22 New Comment=1.87M
+Change Component Comment : Designator=R2 Old Comment=22 New Comment=340K
+Change Component Description : Designator=C1 Old Description=CAPACITOR, American symbol New Description=Ceramic Capacitors   For new designs, use the packages preceded by an '_' character since they are more reliable:   The following footprints should be used on most boards: _0402 - Standard footprint for regular board layouts  _0603 - Standard footprint for regular board layouts  _0805 - Standard footprint for regular board layouts  _1206 - Standard footprint for regular board layouts       For extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.): _0402MP - Micro-pitch footprint for very dense/compact boards  _0603MP - Micro-pitch footprint for very dense/compact boards  _0805MP - Micro-pitch footprint for very dense/compact boards  _1206MP - Micro-pitch footprint for very dense/compact boards
+Change Component Description : Designator=C7 Old Description=CAPACITOR, American symbol New Description=Ceramic Capacitors   For new designs, use the packages preceded by an '_' character since they are more reliable:   The following footprints should be used on most boards: _0402 - Standard footprint for regular board layouts  _0603 - Standard footprint for regular board layouts  _0805 - Standard footprint for regular board layouts  _1206 - Standard footprint for regular board layouts       For extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.): _0402MP - Micro-pitch footprint for very dense/compact boards  _0603MP - Micro-pitch footprint for very dense/compact boards  _0805MP - Micro-pitch footprint for very dense/compact boards  _1206MP - Micro-pitch footprint for very dense/compact boards
+Change Component Description : Designator=R3 Old Description=RESISTOR, American symbol New Description=Resistors   For new designs, use the packages preceded by an '_' character since they are more reliable:   The following footprints should be used on most boards: _0402 - Standard footprint for regular board layouts  _0603 - Standard footprint for regular board layouts  _0805 - Standard footprint for regular board layouts  _1206 - Standard footprint for regular board layouts       For extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.): _0402MP - Micro-pitch footprint for very dense/compact boards  _0603MP - Micro-pitch footprint for very dense/compact boards  _0805MP - Micro-pitch footprint for very dense/compact boards  _1206MP - Micro-pitch footprint for very dense/compact boards
+Change Component Description : Designator=R4 Old Description=RESISTOR, American symbol New Description=Resistors   For new designs, use the packages preceded by an '_' character since they are more reliable:   The following footprints should be used on most boards: _0402 - Standard footprint for regular board layouts  _0603 - Standard footprint for regular board layouts  _0805 - Standard footprint for regular board layouts  _1206 - Standard footprint for regular board layouts       For extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.): _0402MP - Micro-pitch footprint for very dense/compact boards  _0603MP - Micro-pitch footprint for very dense/compact boards  _0805MP - Micro-pitch footprint for very dense/compact boards  _1206MP - Micro-pitch footprint for very dense/compact boards
+Change Component Description : Designator=R5 Old Description=RESISTOR, American symbol New Description=Resistors   For new designs, use the packages preceded by an '_' character since they are more reliable:   The following footprints should be used on most boards: _0402 - Standard footprint for regular board layouts  _0603 - Standard footprint for regular board layouts  _0805 - Standard footprint for regular board layouts  _1206 - Standard footprint for regular board layouts       For extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.): _0402MP - Micro-pitch footprint for very dense/compact boards  _0603MP - Micro-pitch footprint for very dense/compact boards  _0805MP - Micro-pitch footprint for very dense/compact boards  _1206MP - Micro-pitch footprint for very dense/compact boards
+Change Component Library : Designator=C1 Old Library=adafruit.IntLib New Library=microbuilder.IntLib
+Change Component Library : Designator=C7 Old Library=adafruit.IntLib New Library=microbuilder.IntLib
+Change Component Library : Designator=R3 Old Library=adafruit.IntLib New Library=microbuilder.IntLib
+Change Component Library : Designator=R4 Old Library=adafruit.IntLib New Library=microbuilder.IntLib
+Change Component Library : Designator=R5 Old Library=adafruit.IntLib New Library=microbuilder.IntLib
+Added Component: Designator=B1(JSTPH2)
+Added Component: Designator=BOOT(EVQ-Q2)
+Added Component: Designator=C1(Res-0603)
+Added Component: Designator=C2(1608[0603])
+Added Component: Designator=C4(Res-0603)
+Added Component: Designator=C6(Res-0603)
+Added Component: Designator=C7(Res-0603)
+Added Component: Designator=CHRG/LBO(CHIPLED_0805_NOOUTLINE)
+Added Component: Designator=CN1(USB_HOST-PTH)
+Added Component: Designator=CN1(USB-MINIB)
+Added Component: Designator=DONE(CHIPLED_0805_NOOUTLINE)
+Added Component: Designator=JP2(1X08_ROUND)
+Added Component: Designator=L1(INDUCTOR_5X5MM_TDK_VLC5045)
+Added Component: Designator=LED1(CHIPLED_0805_NOOUTLINE)
+Added Component: Designator=LED2(CHIPLED_0805_NOOUTLINE)
+Added Component: Designator=L(CHIPLED_0805)
+Added Component: Designator=PWR(CHIPLED_0805)
+Added Component: Designator=R1(RES-1206in)
+Added Component: Designator=R2(RES-1206in)
+Added Component: Designator=R3(RES-1206in)
+Added Component: Designator=R4(RES-1206in)
+Added Component: Designator=R5(RES-1206in)
+Added Component: Designator=U1(QFN65P400X400X100-17N)
+Added Component: Designator=U2(QFN50P400X400X100-21N)
+Added Component: Designator=X1(TERMBLOCK_1X2-3.5MM)
+Added Pin To Net: NetName=GND Pin=B1-1
+Added Pin To Net: NetName=RST Pin=BOOT-A'
+Added Pin To Net: NetName=RST Pin=BOOT-A
+Added Pin To Net: NetName=GND Pin=BOOT-B'
+Added Pin To Net: NetName=GND Pin=BOOT-B
+Added Pin To Net: NetName=+3V3 Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=+5V Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=VCC Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=VCC Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=VBUS Pin=CHRG/LBO-A
+Added Pin To Net: NetName=NetCN1_D+ Pin=CN1-D+
+Added Pin To Net: NetName=NetCN1_D- Pin=CN1-D-
+Added Pin To Net: NetName=GND Pin=CN1-GND
+Added Pin To Net: NetName=GND Pin=CN1-GND
+Added Pin To Net: NetName=VBUS Pin=CN1-VBUS
+Added Pin To Net: NetName=VBUS Pin=DONE-A
+Added Pin To Net: NetName=VBUS Pin=JP2-1
+Added Pin To Net: NetName=GND Pin=JP2-5
+Added Pin To Net: NetName=GND Pin=JP2-7
+Added Pin To Net: NetName=NetIC1_1 Pin=L-A
+Added Pin To Net: NetName=NetL_C Pin=L-C
+Added Pin To Net: NetName=GND Pin=LED1-C
+Added Pin To Net: NetName=GND Pin=LED2-C
+Added Pin To Net: NetName=NetPWR_A Pin=PWR-A
+Added Pin To Net: NetName=GND Pin=PWR-C
+Added Pin To Net: NetName=NetCN1_D- Pin=R1-1
+Added Pin To Net: NetName=NetIC1_3 Pin=R1-2
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=NetCN1_D+ Pin=R2-1
+Added Pin To Net: NetName=NetIC1_4 Pin=R2-2
+Added Pin To Net: NetName=NetPWR_A Pin=R3-1
+Added Pin To Net: NetName=+5V Pin=R3-2
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=NetIC1_33 Pin=R4-1
+Added Pin To Net: NetName=VCC Pin=R4-2
+Added Pin To Net: NetName=NetL_C Pin=R5-1
+Added Pin To Net: NetName=GND Pin=R5-2
+Added Pin To Net: NetName=GND Pin=U1-10
+Added Pin To Net: NetName=GND Pin=U1-13
+Added Pin To Net: NetName=GND Pin=X1-1
+Added Pin To Net: NetName=5.0V Pin=C2-1
+Added Pin To Net: NetName=5.0V Pin=C6-1
+Added Pin To Net: NetName=5.0V Pin=CN1-VBUS
+Added Pin To Net: NetName=5.0V Pin=JP2-8
+Added Pin To Net: NetName=5.0V Pin=R3-2
+Added Pin To Net: NetName=5.0V Pin=R5-1
+Added Pin To Net: NetName=5.0V Pin=X1-2
+Added Net: Name=5.0V
+Added Pin To Net: NetName=D+ Pin=CN1-D+
+Added Net: Name=D+
+Added Pin To Net: NetName=D- Pin=CN1-D-
+Added Net: Name=D-
+Added Pin To Net: NetName=ENABLE Pin=JP2-4
+Added Pin To Net: NetName=ENABLE Pin=U1-11
+Added Net: Name=ENABLE
+Added Pin To Net: NetName=LBO Pin=JP2-6
+Added Pin To Net: NetName=LBO Pin=U1-12
+Added Net: Name=LBO
+Added Pin To Net: NetName=NetCHRG/LBO_C Pin=CHRG/LBO-C
+Added Net: Name=NetCHRG/LBO_C
+Added Pin To Net: NetName=NetDONE_C Pin=DONE-C
+Added Net: Name=NetDONE_C
+Added Pin To Net: NetName=NetL1_P$2 Pin=L1-P$2
+Added Net: Name=NetL1_P$2
+Added Pin To Net: NetName=NetLED1_A Pin=LED1-A
+Added Net: Name=NetLED1_A
+Added Pin To Net: NetName=NetLED2_A Pin=LED2-A
+Added Pin To Net: NetName=NetLED2_A Pin=R5-2
+Added Net: Name=NetLED2_A
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetR1_1 Pin=R2-2
+Added Pin To Net: NetName=NetR1_1 Pin=U1-9
+Added Net: Name=NetR1_1
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=NetR3_1 Pin=R4-2
+Added Pin To Net: NetName=NetR3_1 Pin=U1-14
+Added Net: Name=NetR3_1
+Added Net: Name=NetR6_1
+Added Net: Name=NetR8_1
+Added Net: Name=NetR14_1
+Added Net: Name=NetR16_2
+Added Net: Name=NetR17_2
+Added Net: Name=NetR20_2
+Added Net: Name=NetTHERM_2
+Added Pin To Net: NetName=VBAT Pin=C1-1
+Added Pin To Net: NetName=VBAT Pin=C4-1
+Added Pin To Net: NetName=VBAT Pin=JP2-3
+Added Pin To Net: NetName=VBAT Pin=L1-P$1
+Added Pin To Net: NetName=VBAT Pin=R1-2
+Added Pin To Net: NetName=VBAT Pin=U1-8
+Added Net: Name=VBAT
+Added Pin To Net: NetName=VLIPO Pin=B1-2
+Added Pin To Net: NetName=VLIPO Pin=C7-1
+Added Pin To Net: NetName=VLIPO Pin=JP2-2
+Added Net: Name=VLIPO
+Added Class: Name=Sheet2
+Added Member To Class: ClassName=Sheet1 Member=Component BOOT EVQQ2
+Added Member To Class: ClassName=Sheet1 Member=Component C1 0.1uF
+Added Member To Class: ClassName=Sheet1 Member=Component C2 18pF
+Added Member To Class: ClassName=Sheet1 Member=Component C4 0.1uF
+Added Member To Class: ClassName=Sheet1 Member=Component C6 0.1uF
+Added Member To Class: ClassName=Sheet1 Member=Component C7 0.1uF
+Added Member To Class: ClassName=Sheet1 Member=Component CN1 MiniB USB
+Added Member To Class: ClassName=Sheet1 Member=Component L1 500mA
+Added Member To Class: ClassName=Sheet1 Member=Component L RED
+Added Member To Class: ClassName=Sheet1 Member=Component PWR GREEN
+Added Member To Class: ClassName=Sheet1 Member=Component R1 22
+Added Member To Class: ClassName=Sheet1 Member=Component R2 22
+Added Member To Class: ClassName=Sheet1 Member=Component R3 1K
+Added Member To Class: ClassName=Sheet1 Member=Component R4 10K
+Added Member To Class: ClassName=Sheet1 Member=Component R5 1K
+Added Room: Name=Sheet1
+Added Room: Name=Sheet2

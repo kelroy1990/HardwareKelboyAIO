@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=5VPOWERBOOST Pin=C6-1
+Removed Member From Class: ClassName=Sheet2 Member=L2
+Change Component Designator: OldDesignator=Power1Entrada NewDesignator=Power1
+Added Pin To Net: NetName=5VPOWERBOOST Pin=C6-1
+Added Pin To Net: NetName=VCC Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Member To Class: ClassName=Sheet2 Member=Component L1 6.8uH

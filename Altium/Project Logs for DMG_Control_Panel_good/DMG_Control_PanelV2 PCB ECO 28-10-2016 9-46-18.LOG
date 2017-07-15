@@ -1,0 +1,12 @@
+Change Physical Footprint: Designator=A1 Old Footprint=DMG-BTN New Footprint=DMG-BTN
+Change Physical Footprint: Designator=B2 Old Footprint=DMG-BTN New Footprint=DMG-BTN
+Change Physical Footprint: Designator=DOWN1 Old Footprint=DMG-BTN New Footprint=DMG-BTN
+Change Physical Footprint: Designator=LEFT1 Old Footprint=DMG-BTN New Footprint=DMG-BTN
+Change Physical Footprint: Designator=R14 Old Footprint=1206 New Footprint=1206
+Change Physical Footprint: Designator=R15 Old Footprint=1206 New Footprint=1206
+Change Physical Footprint: Designator=RIGHT1 Old Footprint=DMG-BTN New Footprint=DMG-BTN
+Change Physical Footprint: Designator=S1 Old Footprint=Switch New Footprint=Switch
+Change Physical Footprint: Designator=UP1 Old Footprint=DMG-BTN New Footprint=DMG-BTN
+Change Physical Footprint: Designator=USB_2 Old Footprint=USBPADS New Footprint=USBPADS
+Change Physical Footprint: Designator=X2 Old Footprint=DMG-BTN -XY New Footprint=DMG-BTN -XY
+Change Physical Footprint: Designator=Y1 Old Footprint=DMG-BTN -XY New Footprint=DMG-BTN -XY

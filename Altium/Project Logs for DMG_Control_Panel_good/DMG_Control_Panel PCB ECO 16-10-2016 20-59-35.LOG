@@ -1,0 +1,47 @@
+Removed Pin From Net: NetName=A Pin=IC1-25
+Removed Pin From Net: NetName=X Pin=IC1-27
+Removed Pin From Net: NetName=Y Pin=IC1-28
+Removed Pin From Net: NetName=Z Pin=IC1-29
+Removed Pin From Net: NetName=UP Pin=IC1-30
+Removed Pin From Net: NetName=B Pin=IC1-31
+Removed Pin From Net: NetName=DOWN Pin=IC1-32
+Removed Pin From Net: NetName=NetL1_2 Pin=TSP-4
+Removed Pin From Net: NetName=NetBost-At_1 Pin=TSP-15
+Removed Pin From Net: NetName=NetBost-At_1 Pin=TSP-16
+Removed Pin From Net: NetName=GND Pin=TSP-17
+Change Component Designator: OldDesignator=Joy NewDesignator=P2
+Change Component Designator: OldDesignator=L-LOW NewDesignator=LED1
+Change Component Designator: OldDesignator=L-OUT NewDesignator=LED2
+Change Component Designator: OldDesignator=LiPoIn NewDesignator=BateryIn
+Change Component Designator: OldDesignator=MC NewDesignator=U1
+Change Component Designator: OldDesignator=Out-Bost NewDesignator=X1
+Change Component Designator: OldDesignator=R1 NewDesignator=A-R1
+Change Component Designator: OldDesignator=R3 NewDesignator=A-R3
+Change Component Designator: OldDesignator=R4 NewDesignator=A-R4
+Change Component Designator: OldDesignator=R5 NewDesignator=A-R5
+Change Component Designator: OldDesignator=TH NewDesignator=THERM
+Change Component Designator: OldDesignator=V-Usb NewDesignator=VBatIn
+Added Pin To Net: NetName=UP Pin=IC1-27
+Added Pin To Net: NetName=Z Pin=IC1-28
+Added Pin To Net: NetName=Y Pin=IC1-29
+Added Pin To Net: NetName=X Pin=IC1-30
+Added Pin To Net: NetName=A Pin=IC1-31
+Added Pin To Net: NetName=B Pin=IC1-32
+Added Pin To Net: NetName=NetA-R3_1 Pin=A-R3-1
+Added Net: Name=NetA-R3_1
+Added Pin To Net: NetName=NetA-R4_2 Pin=A-R4-2
+Added Net: Name=NetA-R4_2
+Added Member To Class: ClassName=Sheet3 Member=Component A-R1 100K
+Added Member To Class: ClassName=Sheet3 Member=Component A-R3 100K
+Added Member To Class: ClassName=Sheet3 Member=Component A-R4 100K
+Added Member To Class: ClassName=Sheet3 Member=Component A-R5 10K
+Added Member To Class: ClassName=Powerbost Member=Component BateryIn Header 2
+Added Member To Class: ClassName=Sheet1 Member=Component C2 9pF
+Added Member To Class: ClassName=Powerbost Member=Component LED2 BLUE
+Added Member To Class: ClassName=Powerbost Member=Component THERM 15K
+Added Member To Class: ClassName=Sheet3 Member=Component U1 MAX98306ETD+T
+Added Member To Class: ClassName=Powerbost Member=Component VBatIn Header 2
+Added Member To Class: ClassName=Powerbost Member=Component X1 TERMBLOCK_1X2
+Added Room: Name=Powerbost
+Added Room: Name=Sheet1
+Added Room: Name=Sheet3

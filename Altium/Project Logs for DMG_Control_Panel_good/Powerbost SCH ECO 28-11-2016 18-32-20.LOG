@@ -1,0 +1,14 @@
+Remove Pin=A1-2 From Net=A
+Remove Pin=HUB-17 From Net=VCC3_3
+Remove Pin=HUB-19 From Net=VCC3_3
+Remove Pin=P2-1 From Net=VRY
+Remove Pin=P2-2 From Net=VRX
+Change Component Comment: Designator=C2 Old Comment=18pF New Comment=9pF
+Change Component Comment: Designator=C3 Old Comment=18pF New Comment=9pF
+Change Component Designator: OldDesignator=BATT NewDesignator=BateryIn
+Change Component Designator: OldDesignator=USB NewDesignator=VBatIn
+Change Pin Designator/Name:  Old Designator=C15-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=IC1-28 Old Name=PB4(ADC11) New Designator =PF6(ADC6/TDO) New Name=37
+Change Pin Designator/Name:  Old Designator=IC1-37 Old Name=PF6(ADC6/TDO) New Designator =PB4(ADC11) New Name=28
+Change Pin Designator/Name:  Old Designator=X4-1 Old Name=XTAL1 New Designator =XTAL1 New Name=1
+Change Pin Designator/Name:  Old Designator=X4-3 Old Name=XTAL2 New Designator =XTAL2 New Name=3

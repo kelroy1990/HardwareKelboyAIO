@@ -1,0 +1,3 @@
+Change Component Designator: OldDesignator=Power1 NewDesignator=VBatIn
+Change Component Designator: OldDesignator=SJ3 NewDesignator=Bost-At
+Change Component Designator: OldDesignator=U2 NewDesignator=TSP

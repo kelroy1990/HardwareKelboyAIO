@@ -1,0 +1,12 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [Free Documents]
+   Generated File[DMG_Control_PanelV2.RUL]
+   Generated File[DMG_Control_PanelV2.EXTREP]
+   Generated File[DMG_Control_PanelV2.REP]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 20:23:30 On 06/12/2016

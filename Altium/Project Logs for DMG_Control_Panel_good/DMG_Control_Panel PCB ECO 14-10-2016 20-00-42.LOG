@@ -1,0 +1,4 @@
+Added Component: Designator=L1(INDUCTOR_5X5MM_TDK_VLC5045)
+Added Pin To Net: NetName=VBAT Pin=L1-1
+Added Pin To Net: NetName=NetL1_2 Pin=L1-2
+Added Member To Class: ClassName=Powerbost Member=Component L1 6.8uH

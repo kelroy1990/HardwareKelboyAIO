@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=BateryIn NewDesignator=LIPO IN
+Change Component Designator: OldDesignator=THERM NewDesignator=THR
+Change Component Designator: OldDesignator=VBatIn NewDesignator=USB 5V
+Add Pin To Net: Pin=A1-2 Old Net=NetA1_2 New Net=A

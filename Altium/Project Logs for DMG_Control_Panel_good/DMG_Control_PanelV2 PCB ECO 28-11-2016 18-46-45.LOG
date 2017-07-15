@@ -1,0 +1,10 @@
+Added Component: Designator=5V(TERMBLOCK_1X2-3.5MM)
+Added Pin To Net: NetName=GND Pin=5V-1
+Added Pin To Net: NetName=Net5V_2 Pin=5V-2
+Added Pin To Net: NetName=GND Pin=C15-2
+Change Class Name : Old Net Name=Powerbost New Net Name=PowerBoost_kel
+Added Member To Class: ClassName=PowerBoost_kel Member=Component 5V TERMBLOCK_1X2
+Added Room: Name=PowerBoost_kel
+Added Room: Name=Sheet1
+Added Room: Name=Sheet2
+Added Room: Name=Sheet3

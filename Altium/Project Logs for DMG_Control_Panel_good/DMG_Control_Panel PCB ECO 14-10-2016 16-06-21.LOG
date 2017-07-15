@@ -1,0 +1,9 @@
+Change Component Designator: OldDesignator=5V NewDesignator=P1
+Change Component Designator: OldDesignator=Joy NewDesignator=P2
+Change Component Designator: OldDesignator=LedRed NewDesignator=IC1
+Change Component Designator: OldDesignator=LedVerde NewDesignator=PWR
+Added Component: Designator=L1(RES-1206in)
+Added Pin To Net: NetName=5VPOWERBOOST Pin=L1-1
+Added Pin To Net: NetName=+5V Pin=L1-2
+Added Member To Class: ClassName=Sheet1 Member=Component L1 500mA
+Added Room: Name=Sheet1

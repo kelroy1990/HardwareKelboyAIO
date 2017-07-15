@@ -1,0 +1,4 @@
+Removed Member From Class: ClassName=Powerbost Member=ButtonL1
+Removed Member From Class: ClassName=Sheet3 Member=U2
+Added Member To Class: ClassName=Powerbost Member=Component L1 6.8uH
+Added Member To Class: ClassName=Sheet3 Member=Component U1 MAX98306ETD+T

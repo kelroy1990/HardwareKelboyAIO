@@ -1,0 +1,36 @@
+Change Component Footprint: Designator=X4 Old Footprint=Res12MHZ-smd New Footprint=Resonador3.2x2.5
+Change Component Footprint: Designator=X4 Old Footprint=Resonador3.2x2.5 New Footprint=Res12MHZ-smd
+Added Component: Designator=B2(DMG-BTN)
+Added Component: Designator=DOWN1(DMG-BTN)
+Added Component: Designator=LEFT1(DMG-BTN)
+Added Component: Designator=RIGHT1(DMG-BTN)
+Added Component: Designator=UP1(DMG-BTN)
+Added Component: Designator=X2(DMG-BTN -XY)
+Added Component: Designator=Y1(DMG-BTN -XY)
+Added Pin To Net: NetName=GND Pin=B2-1
+Added Pin To Net: NetName=B Pin=B2-2
+Added Pin To Net: NetName=VCC1_8 Pin=C15-2
+Added Pin To Net: NetName=GND Pin=DOWN1-1
+Added Pin To Net: NetName=DOWN Pin=DOWN1-2
+Added Pin To Net: NetName=GND Pin=LEFT1-1
+Added Pin To Net: NetName=LEFT Pin=LEFT1-2
+Added Pin To Net: NetName=GND Pin=RIGHT1-1
+Added Pin To Net: NetName=RIGHT Pin=RIGHT1-2
+Added Pin To Net: NetName=GND Pin=UP1-1
+Added Pin To Net: NetName=UP Pin=UP1-2
+Added Pin To Net: NetName=GND Pin=X2-1
+Added Pin To Net: NetName=X Pin=X2-2
+Added Pin To Net: NetName=GND Pin=X4-2
+Added Pin To Net: NetName=GND Pin=X4-4
+Added Pin To Net: NetName=GND Pin=Y1-1
+Added Pin To Net: NetName=Y Pin=Y1-2
+Added Member To Class: ClassName=Sheet1 Member=Component B2 SW-PB
+Added Member To Class: ClassName=Sheet1 Member=Component DOWN1 SW-PB
+Added Member To Class: ClassName=Sheet1 Member=Component LEFT1 SW-PB
+Added Member To Class: ClassName=Sheet1 Member=Component RIGHT1 SW-PB
+Added Member To Class: ClassName=Sheet1 Member=Component UP1 SW-PB
+Added Member To Class: ClassName=Sheet1 Member=Component X2 SW-PB
+Added Member To Class: ClassName=Sheet1 Member=Component Y1 SW-PB
+Added Room: Name=Powerbost
+Added Room: Name=Sheet1
+Added Room: Name=Sheet2

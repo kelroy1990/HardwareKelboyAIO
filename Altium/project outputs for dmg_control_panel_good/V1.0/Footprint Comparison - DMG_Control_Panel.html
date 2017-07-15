@@ -1,0 +1,731 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 { 
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body { 
+			font-family : segoe ui;
+		}
+
+		td, th {  
+			padding: 0.5em;
+			text-align : left;
+		}
+		th { 
+			background-color : #EEEEEE;
+		
+		}
+		th.column1, td.column1 { 
+			width : 50%; 
+		}
+
+        th.column2, td.column2 {
+            width : 25%;
+        }
+
+		table { 
+			width : 100%; 
+            font-size: 0.9em;
+		}
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 5em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error { 
+			color : red;
+			font-weight : bold;
+		}	
+		tr.onmouseout_odd { 
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+			
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);		
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {	
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}	
+	</script><title>Footprint Comparison Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD16\Templates\AD_logo.png
+		"><a href="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports" class="customize"><acronym title="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports">customize</acronym></a><h1>Footprint Comparison Report</h1>
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">16/10/2016</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">18:44:04</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:00</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\DMG_Control_Panel.PcbDoc" class="file"><acronym title="C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\DMG_Control_Panel.PcbDoc">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\DMG_Control_Panel.PcbDoc</acronym></a></td>
+</tr>
+</table><a name="IDASWJIJL3CZZKHELCDTBLWTXBED4DI3THNVA21LP0RAB0DHQFVCTI"><h2>Contents</h2></a><p class="contents_level1"><a href="#IDASWJIJL3CZZKHELCDTBLWTXBED4DI3THNVA21LP0RAB0DHQFVCTI">Contents</a></p>
+<p class="contents_level1"><a href="#ID25DBIRSB1Y2W0ILJYWCBQOTINMTBW510CNUYXKUE22UA55NYQZH">Components Status Summary</a></p>
+<p class="contents_level2"><a href="#IDB0GZKFQLRUQBJCR4HXJZYJM5YBBIDQ1GBNDNO3F1TVDXYFQGDBT">Unmatched Components List<br></a></p>
+<p class="contents_level2"><a href="#IDP4TCUGWSVVALKAPGJPTSYS3JFJXC44XFZPJ203NFS5YRZPV0I02J">Matched Components List<br></a></p>
+<p class="contents_level2"><a href="#IDDW3J1MBGUTCGK5SZN42R0JCF0KMWFBOQZYX14XMVHIAZXQZSCZM">Missing PCB Components List<br></a></p>
+<p class="contents_level1"><a href="#ID3DRJYMBRHUVSFGDSPI2UA544DLS1KLV2JC0XFTJX3MQ1WZFCYXLL">Components Details</a></p>
+<p class="contents_level2"><a href="#IDEEFK5T54BL1GFYQLBN4IQR5RRLQ3MJTUTPY4NJOKBKFDOKYIT2LC">PCB Difference Details<br></a></p><br><a name="ID25DBIRSB1Y2W0ILJYWCBQOTINMTBW510CNUYXKUE22UA55NYQZH"><h2>Components Status Summary</h2></a><h2>Unmatched Components List</h2><a name="IDB0GZKFQLRUQBJCR4HXJZYJM5YBBIDQ1GBNDNO3F1TVDXYFQGDBT"><table>
+<tr>
+<th class="column1">Designator</th>
+<th class="column2">Footprint</th>
+<th class="column3">Footprint reference</th>
+<th class="column4">Path to reference Library</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">TSP</td>
+<td style="Width:20%" class="column2">QFN65P400X400X100-17N</td>
+<td style="Width:20%" class="column3">QFN65P400X400X100-17N</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">MCP</td>
+<td style="Width:20%" class="column2">QFN50P400X400X100-21N</td>
+<td style="Width:20%" class="column3">QFN50P400X400X100-21N</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><h2>Matched Components List</h2><a name="IDP4TCUGWSVVALKAPGJPTSYS3JFJXC44XFZPJ203NFS5YRZPV0I02J"><table>
+<tr>
+<th class="column1">Designator</th>
+<th class="column2">Footprint</th>
+<th class="column3">Footprint reference</th>
+<th class="column4">Footprint to reference Library</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">A1</td>
+<td style="Width:20%" class="column2">DMG-BTN</td>
+<td style="Width:20%" class="column3">DMG-BTN</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\Game Boy.PCBLIB</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">A-C1</td>
+<td style="Width:20%" class="column2">0805</td>
+<td style="Width:20%" class="column3">0805</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\microbuilder.PCBLIB</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">A-C2</td>
+<td style="Width:20%" class="column2">0805</td>
+<td style="Width:20%" class="column3">0805</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\microbuilder.PCBLIB</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">A-C3</td>
+<td style="Width:20%" class="column2">0805</td>
+<td style="Width:20%" class="column3">0805</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\microbuilder.PCBLIB</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">A-C4</td>
+<td style="Width:20%" class="column2">0805</td>
+<td style="Width:20%" class="column3">0805</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\microbuilder.PCBLIB</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">A-C5</td>
+<td style="Width:20%" class="column2">0805</td>
+<td style="Width:20%" class="column3">0805</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\microbuilder.PCBLIB</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">A-C6</td>
+<td style="Width:20%" class="column2">0805</td>
+<td style="Width:20%" class="column3">0805</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\microbuilder.PCBLIB</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">B2</td>
+<td style="Width:20%" class="column2">DMG-BTN</td>
+<td style="Width:20%" class="column3">DMG-BTN</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\Game Boy.PCBLIB</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">LiPoIn</td>
+<td style="Width:20%" class="column2">HDR1X2</td>
+<td style="Width:20%" class="column3">HDR1X2</td>
+<td style="Width:60%" class="column4">C:\Users\Public\Documents\Altium\AD16\Library\Miscellaneous Connectors.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">BOOT</td>
+<td style="Width:20%" class="column2">EVQ-Q2</td>
+<td style="Width:20%" class="column3">EVQ-Q2</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\microbuilder.PCBLIB</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Bost-At</td>
+<td style="Width:20%" class="column2">JUMPER</td>
+<td style="Width:20%" class="column3">JUMPER</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">ButtonL1</td>
+<td style="Width:20%" class="column2">1X02_OVAL</td>
+<td style="Width:20%" class="column3">1X02_OVAL</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\microbuilder.PCBLIB</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">ButtonR1</td>
+<td style="Width:20%" class="column2">1X02_OVAL</td>
+<td style="Width:20%" class="column3">1X02_OVAL</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\microbuilder.PCBLIB</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">C1</td>
+<td style="Width:20%" class="column2">RES-1206in</td>
+<td style="Width:20%" class="column3">RES-1206in</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">C2</td>
+<td style="Width:20%" class="column2">1608[0603]</td>
+<td style="Width:20%" class="column3">1608[0603]</td>
+<td style="Width:60%" class="column4">C:\Users\Public\Documents\Altium\AD16\Library\Miscellaneous Devices.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">C3</td>
+<td style="Width:20%" class="column2">1608[0603]</td>
+<td style="Width:20%" class="column3">1608[0603]</td>
+<td style="Width:60%" class="column4">C:\Users\Public\Documents\Altium\AD16\Library\Miscellaneous Devices.IntLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">C4</td>
+<td style="Width:20%" class="column2">1608[0603]</td>
+<td style="Width:20%" class="column3">1608[0603]</td>
+<td style="Width:60%" class="column4">C:\Users\Public\Documents\Altium\AD16\Library\Miscellaneous Devices.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">C6</td>
+<td style="Width:20%" class="column2">1608[0603]</td>
+<td style="Width:20%" class="column3">1608[0603]</td>
+<td style="Width:60%" class="column4">C:\Users\Public\Documents\Altium\AD16\Library\Miscellaneous Devices.IntLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">C7</td>
+<td style="Width:20%" class="column2">1608[0603]</td>
+<td style="Width:20%" class="column3">1608[0603]</td>
+<td style="Width:60%" class="column4">C:\Users\Public\Documents\Altium\AD16\Library\Miscellaneous Devices.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">C8</td>
+<td style="Width:20%" class="column2">RES-1206in</td>
+<td style="Width:20%" class="column3">RES-1206in</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">C9</td>
+<td style="Width:20%" class="column2">1608[0603]</td>
+<td style="Width:20%" class="column3">1608[0603]</td>
+<td style="Width:60%" class="column4">C:\Users\Public\Documents\Altium\AD16\Library\Miscellaneous Devices.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">C10</td>
+<td style="Width:20%" class="column2">RES-1206in</td>
+<td style="Width:20%" class="column3">RES-1206in</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">C11</td>
+<td style="Width:20%" class="column2">RES-1206in</td>
+<td style="Width:20%" class="column3">RES-1206in</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">C12</td>
+<td style="Width:20%" class="column2">RES-0805</td>
+<td style="Width:20%" class="column3">RES-0805</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">C13</td>
+<td style="Width:20%" class="column2">RES-0805</td>
+<td style="Width:20%" class="column3">RES-0805</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">CHRG/LBO</td>
+<td style="Width:20%" class="column2">RES-0805</td>
+<td style="Width:20%" class="column3">RES-0805</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">DONE</td>
+<td style="Width:20%" class="column2">RES-0805</td>
+<td style="Width:20%" class="column3">RES-0805</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">DOWN1</td>
+<td style="Width:20%" class="column2">DMG-BTN</td>
+<td style="Width:20%" class="column3">DMG-BTN</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\Game Boy.PCBLIB</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">IC1</td>
+<td style="Width:20%" class="column2">TQFP44</td>
+<td style="Width:20%" class="column3">TQFP44</td>
+<td style="Width:60%" class="column4">G:\Proyectos e Impresora\ALTIUM LIB\Imported atmel.PrjPcb\atmel.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">ISP6</td>
+<td style="Width:20%" class="column2">1X06_OVAL</td>
+<td style="Width:20%" class="column3">1X06_OVAL</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\microbuilder.PCBLIB</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">J1</td>
+<td style="Width:20%" class="column2">TERMBLOCK_1X2-3.5MM</td>
+<td style="Width:20%" class="column3">TERMBLOCK_1X2-3.5MM</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\microbuilder.PCBLIB</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">J2</td>
+<td style="Width:20%" class="column2">TERMBLOCK_1X2-3.5MM</td>
+<td style="Width:20%" class="column3">TERMBLOCK_1X2-3.5MM</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\microbuilder.PCBLIB</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">JP3</td>
+<td style="Width:20%" class="column2">1X09_ROUND_70</td>
+<td style="Width:20%" class="column3">1X09_ROUND_70</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\microbuilder.PCBLIB</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">L</td>
+<td style="Width:20%" class="column2">CHIPLED_0805</td>
+<td style="Width:20%" class="column3">CHIPLED_0805</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\microbuilder.PCBLIB</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">L1</td>
+<td style="Width:20%" class="column2">INDUCTOR_5X5MM_TDK_VLC5045</td>
+<td style="Width:20%" class="column3">INDUCTOR_5X5MM_TDK_VLC5045</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\microbuilder.PCBLIB</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">L2</td>
+<td style="Width:20%" class="column2">RES-1206in</td>
+<td style="Width:20%" class="column3">RES-1206in</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">LED1</td>
+<td style="Width:20%" class="column2">RES-0805</td>
+<td style="Width:20%" class="column3">RES-0805</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">LED2</td>
+<td style="Width:20%" class="column2">RES-0805</td>
+<td style="Width:20%" class="column3">RES-0805</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">LEFT1</td>
+<td style="Width:20%" class="column2">DMG-BTN</td>
+<td style="Width:20%" class="column3">DMG-BTN</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\Game Boy.PCBLIB</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">P1</td>
+<td style="Width:20%" class="column2">MHDR1X2</td>
+<td style="Width:20%" class="column3">MHDR1X2</td>
+<td style="Width:60%" class="column4">C:\Users\Public\Documents\Altium\AD16\Library\Miscellaneous Connectors.IntLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">P2</td>
+<td style="Width:20%" class="column2">MHDR1X4</td>
+<td style="Width:20%" class="column3">MHDR1X4</td>
+<td style="Width:60%" class="column4">C:\Users\Public\Documents\Altium\AD16\Library\Miscellaneous Connectors.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">PWR</td>
+<td style="Width:20%" class="column2">CHIPLED_0805</td>
+<td style="Width:20%" class="column3">CHIPLED_0805</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\microbuilder.PCBLIB</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">R1</td>
+<td style="Width:20%" class="column2">0805</td>
+<td style="Width:20%" class="column3">0805</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\microbuilder.PCBLIB</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">R1</td>
+<td style="Width:20%" class="column2">RES-1206in</td>
+<td style="Width:20%" class="column3">RES-1206in</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">R2</td>
+<td style="Width:20%" class="column2">RES-1206in</td>
+<td style="Width:20%" class="column3">RES-1206in</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">R3</td>
+<td style="Width:20%" class="column2">0805</td>
+<td style="Width:20%" class="column3">0805</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\microbuilder.PCBLIB</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">R3</td>
+<td style="Width:20%" class="column2">RES-1206in</td>
+<td style="Width:20%" class="column3">RES-1206in</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">R4</td>
+<td style="Width:20%" class="column2">0805</td>
+<td style="Width:20%" class="column3">0805</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\microbuilder.PCBLIB</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">R4</td>
+<td style="Width:20%" class="column2">RES-1206in</td>
+<td style="Width:20%" class="column3">RES-1206in</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">R5</td>
+<td style="Width:20%" class="column2">0805</td>
+<td style="Width:20%" class="column3">0805</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\microbuilder.PCBLIB</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">R5</td>
+<td style="Width:20%" class="column2">RES-1206in</td>
+<td style="Width:20%" class="column3">RES-1206in</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">R6</td>
+<td style="Width:20%" class="column2">RES-1206in</td>
+<td style="Width:20%" class="column3">RES-1206in</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">R7</td>
+<td style="Width:20%" class="column2">RES-1206in</td>
+<td style="Width:20%" class="column3">RES-1206in</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">R8</td>
+<td style="Width:20%" class="column2">RES-1206in</td>
+<td style="Width:20%" class="column3">RES-1206in</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">R9</td>
+<td style="Width:20%" class="column2">RES-1206in</td>
+<td style="Width:20%" class="column3">RES-1206in</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">R10</td>
+<td style="Width:20%" class="column2">RES-1206in</td>
+<td style="Width:20%" class="column3">RES-1206in</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">R11</td>
+<td style="Width:20%" class="column2">RES-1206in</td>
+<td style="Width:20%" class="column3">RES-1206in</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">R12</td>
+<td style="Width:20%" class="column2">RES-1206in</td>
+<td style="Width:20%" class="column3">RES-1206in</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">R17</td>
+<td style="Width:20%" class="column2">RES-1206in</td>
+<td style="Width:20%" class="column3">RES-1206in</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">R18</td>
+<td style="Width:20%" class="column2">RES-1206in</td>
+<td style="Width:20%" class="column3">RES-1206in</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">R19</td>
+<td style="Width:20%" class="column2">RES-1206in</td>
+<td style="Width:20%" class="column3">RES-1206in</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">R20</td>
+<td style="Width:20%" class="column2">RES-1206in</td>
+<td style="Width:20%" class="column3">RES-1206in</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">R21</td>
+<td style="Width:20%" class="column2">RES-1206in</td>
+<td style="Width:20%" class="column3">RES-1206in</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">R22</td>
+<td style="Width:20%" class="column2">RES-1206in</td>
+<td style="Width:20%" class="column3">RES-1206in</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">RIGHT1</td>
+<td style="Width:20%" class="column2">DMG-BTN</td>
+<td style="Width:20%" class="column3">DMG-BTN</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\Game Boy.PCBLIB</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">SELECT1</td>
+<td style="Width:20%" class="column2">DMG-SEL</td>
+<td style="Width:20%" class="column3">DMG-SEL</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\Game Boy.PCBLIB</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">SJ1</td>
+<td style="Width:20%" class="column2">JUMPER</td>
+<td style="Width:20%" class="column3">JUMPER</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">SJ2</td>
+<td style="Width:20%" class="column2">JUMPER</td>
+<td style="Width:20%" class="column3">JUMPER</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">START1</td>
+<td style="Width:20%" class="column2">DMG-ST</td>
+<td style="Width:20%" class="column3">DMG-ST</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\Game Boy.PCBLIB</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">T1</td>
+<td style="Width:20%" class="column2">MMUN2133LT1G</td>
+<td style="Width:20%" class="column3">MMUN2133LT1G</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">TH</td>
+<td style="Width:20%" class="column2">RES-0805</td>
+<td style="Width:20%" class="column3">RES-0805</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">U1</td>
+<td style="Width:20%" class="column2">TDFN14_3X3MM</td>
+<td style="Width:20%" class="column3">TDFN14_3X3MM</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\microbuilder.PCBLIB</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">UP1</td>
+<td style="Width:20%" class="column2">DMG-BTN</td>
+<td style="Width:20%" class="column3">DMG-BTN</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\Game Boy.PCBLIB</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">V-Usb</td>
+<td style="Width:20%" class="column2">HDR1X2</td>
+<td style="Width:20%" class="column3">HDR1X2</td>
+<td style="Width:60%" class="column4">C:\Users\Public\Documents\Altium\AD16\Library\Miscellaneous Connectors.IntLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">X1</td>
+<td style="Width:20%" class="column2">TERMBLOCK_1X2-3.5MM</td>
+<td style="Width:20%" class="column3">TERMBLOCK_1X2-3.5MM</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\microbuilder.PCBLIB</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">X2</td>
+<td style="Width:20%" class="column2">DMG-BTN -XY</td>
+<td style="Width:20%" class="column3">DMG-BTN -XY</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\Game Boy.PCBLIB</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">X4</td>
+<td style="Width:20%" class="column2">Resonador3.2x2.5</td>
+<td style="Width:20%" class="column3">Resonador3.2x2.5</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\LibreriaComp.PcbLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Y1</td>
+<td style="Width:20%" class="column2">DMG-BTN -XY</td>
+<td style="Width:20%" class="column3">DMG-BTN -XY</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\Game Boy.PCBLIB</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Z1</td>
+<td style="Width:20%" class="column2">DMG-BTN -XY</td>
+<td style="Width:20%" class="column3">DMG-BTN -XY</td>
+<td style="Width:60%" class="column4">C:\Users\Kelroy\Dropbox\GameBoyPi\Altium\Game Boy.PCBLIB</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><h2>Missing PCB Components List</h2><a name="IDDW3J1MBGUTCGK5SZN42R0JCF0KMWFBOQZYX14XMVHIAZXQZSCZM"><table>
+<tr>
+<th class="column1">Designator</th>
+<th class="column2">Footprint</th>
+<th class="column3">Footprint reference</th>
+<th class="column4">Path to reference Library</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">JP1</td>
+<td style="Width:20%" class="column2"></td>
+<td style="Width:20%" class="column3">2X04</td>
+<td style="Width:60%" class="column4">&lt;Footprint not found&gt;</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID3DRJYMBRHUVSFGDSPI2UA544DLS1KLV2JC0XFTJX3MQ1WZFCYXLL"><h2>Components Details</h2></a><h2>PCB Difference Details</h2><a name="IDEEFK5T54BL1GFYQLBN4IQR5RRLQ3MJTUTPY4NJOKBKFDOKYIT2LC"><table>
+<tr>
+<th class="column1">Designator</th>
+<th class="column2">Layers Containing Differences</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="Width:2%" class="column1">TSP</td>
+<td class="column2">Bottom Layer, Bottom Solder, Via Holes</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="Width:2%" class="column1">MCP</td>
+<td class="column2">Via Holes</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

@@ -1,0 +1,91 @@
+Removed Pin From Net: NetName=NetCN1_D+ Pin=CN1-D+
+Removed Pin From Net: NetName=NetCN1_D- Pin=CN1-D-
+Removed Pin From Net: NetName=VBUS Pin=CN1-VBUS
+Removed Pin From Net: NetName=GND Pin=U1-17
+Change Component DesignItemId : Designator=C6 Old DesignItemId=C-USC0805K New DesignItemId=C-USC1210
+Change Component DesignItemId : Designator=C1 Old DesignItemId=C-USC0805K New DesignItemId=CAP_CERAMIC0805-NOOUTLINE
+Change Component DesignItemId : Designator=C2 Old DesignItemId=C-USC0805K New DesignItemId=CAP_CERAMIC0805-NOOUTLINE
+Change Component DesignItemId : Designator=C7 Old DesignItemId=C-USC0805K New DesignItemId=CAP_CERAMIC0805-NOOUTLINE
+Change Component DesignItemId : Designator=C4 Old DesignItemId=C-USC0805K New DesignItemId=CAP_CERAMIC0805_10MGAP
+Change Component DesignItemId : Designator=C6 Old DesignItemId=C-USC1210 New DesignItemId=C-USC0805K
+Change Component DesignItemId : Designator=C1 Old DesignItemId=CAP_CERAMIC0805-NOOUTLINE New DesignItemId=C-USC0805K
+Change Component DesignItemId : Designator=C7 Old DesignItemId=CAP_CERAMIC0805-NOOUTLINE New DesignItemId=C-USC0805K
+Change Component DesignItemId : Designator=R3 Old DesignItemId=R-US_R0805 New DesignItemId=RESISTOR0805_NOOUTLINE
+Change Component DesignItemId : Designator=R4 Old DesignItemId=R-US_R0805 New DesignItemId=RESISTOR0805_NOOUTLINE
+Change Component DesignItemId : Designator=R5 Old DesignItemId=R-US_R0805 New DesignItemId=RESISTOR0805_NOOUTLINE
+Change Component DesignItemId : Designator=R1 Old DesignItemId=R-US_R0805 New DesignItemId=RESISTOR_0805MP
+Change Component DesignItemId : Designator=R2 Old DesignItemId=R-US_R0805 New DesignItemId=RESISTOR_0805MP
+Change Component DesignItemId : Designator=R3 Old DesignItemId=RESISTOR0805_NOOUTLINE New DesignItemId=R-US_R0805
+Change Component DesignItemId : Designator=R4 Old DesignItemId=RESISTOR0805_NOOUTLINE New DesignItemId=R-US_R0805
+Change Component DesignItemId : Designator=R5 Old DesignItemId=RESISTOR0805_NOOUTLINE New DesignItemId=R-US_R0805
+Change Component DesignItemId : Designator=R1 Old DesignItemId=RESISTOR_0805MP New DesignItemId=R-US_R0805
+Change Component DesignItemId : Designator=R2 Old DesignItemId=RESISTOR_0805MP New DesignItemId=R-US_R0805
+Change Component DesignItemId : Designator=CN1 Old DesignItemId=USBMINIB New DesignItemId=USB_TYPEAPTHFML
+Change Component Footprint: Designator=R1 Old Footprint=_0805MP New Footprint=RES-1206in
+Change Component Footprint: Designator=R2 Old Footprint=_0805MP New Footprint=RES-1206in
+Change Component Footprint: Designator=C6 Old Footprint=C1210 New Footprint=Res-0603
+Change Component Footprint: Designator=C6 Old Footprint=Res-0603 New Footprint=C1210
+Change Component Footprint: Designator=R1 Old Footprint=RES-1206in New Footprint=_0805MP
+Change Component Footprint: Designator=R2 Old Footprint=RES-1206in New Footprint=_0805MP
+Change Component Footprint: Designator=CN1 Old Footprint=USB-MINIB New Footprint=USB_HOST-PTH
+Change Component Comment : Designator=C1 Old Comment=0.1uF New Comment=10uF
+Change Component Comment : Designator=C7 Old Comment=0.1uF New Comment=10uF
+Change Component Comment : Designator=C6 Old Comment=0.1uF New Comment=100uF
+Change Component Comment : Designator=R3 Old Comment=1.87M New Comment=1K
+Change Component Comment : Designator=R1 Old Comment=1.87M New Comment=22
+Change Component Comment : Designator=R3 Old Comment=1K New Comment=1.87M
+Change Component Comment : Designator=R4 Old Comment=10K New Comment=200K
+Change Component Comment : Designator=C1 Old Comment=10uF New Comment=0.1uF
+Change Component Comment : Designator=C7 Old Comment=10uF New Comment=0.1uF
+Change Component Comment : Designator=C2 Old Comment=18pF New Comment=2.2uF
+Change Component Comment : Designator=R1 Old Comment=22 New Comment=1.87M
+Change Component Comment : Designator=R2 Old Comment=22 New Comment=340K
+Change Component Comment : Designator=C6 Old Comment=100uF New Comment=0.1uF
+Change Component Comment : Designator=R4 Old Comment=200K New Comment=10K
+Change Component Comment : Designator=R2 Old Comment=340K New Comment=22
+Change Component Comment : Designator=CN1 Old Comment=MiniB USB New Comment=USBA_FEMALE
+Change Component Description : Designator=C1 Old Description=CAPACITOR, American symbol New Description=Ceramic Capacitors   For new designs, use the packages preceded by an '_' character since they are more reliable:   The following footprints should be used on most boards: _0402 - Standard footprint for regular board layouts  _0603 - Standard footprint for regular board layouts  _0805 - Standard footprint for regular board layouts  _1206 - Standard footprint for regular board layouts       For extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.): _0402MP - Micro-pitch footprint for very dense/compact boards  _0603MP - Micro-pitch footprint for very dense/compact boards  _0805MP - Micro-pitch footprint for very dense/compact boards  _1206MP - Micro-pitch footprint for very dense/compact boards
+Change Component Description : Designator=C2 Old Description=CAPACITOR, American symbol New Description=Ceramic Capacitors   For new designs, use the packages preceded by an '_' character since they are more reliable:   The following footprints should be used on most boards: _0402 - Standard footprint for regular board layouts  _0603 - Standard footprint for regular board layouts  _0805 - Standard footprint for regular board layouts  _1206 - Standard footprint for regular board layouts       For extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.): _0402MP - Micro-pitch footprint for very dense/compact boards  _0603MP - Micro-pitch footprint for very dense/compact boards  _0805MP - Micro-pitch footprint for very dense/compact boards  _1206MP - Micro-pitch footprint for very dense/compact boards
+Change Component Description : Designator=C4 Old Description=CAPACITOR, American symbol New Description=Ceramic Capacitors   For new designs, use the packages preceded by an '_' character since they are more reliable:   The following footprints should be used on most boards: _0402 - Standard footprint for regular board layouts  _0603 - Standard footprint for regular board layouts  _0805 - Standard footprint for regular board layouts  _1206 - Standard footprint for regular board layouts       For extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.): _0402MP - Micro-pitch footprint for very dense/compact boards  _0603MP - Micro-pitch footprint for very dense/compact boards  _0805MP - Micro-pitch footprint for very dense/compact boards  _1206MP - Micro-pitch footprint for very dense/compact boards
+Change Component Description : Designator=C7 Old Description=CAPACITOR, American symbol New Description=Ceramic Capacitors   For new designs, use the packages preceded by an '_' character since they are more reliable:   The following footprints should be used on most boards: _0402 - Standard footprint for regular board layouts  _0603 - Standard footprint for regular board layouts  _0805 - Standard footprint for regular board layouts  _1206 - Standard footprint for regular board layouts       For extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.): _0402MP - Micro-pitch footprint for very dense/compact boards  _0603MP - Micro-pitch footprint for very dense/compact boards  _0805MP - Micro-pitch footprint for very dense/compact boards  _1206MP - Micro-pitch footprint for very dense/compact boards
+Change Component Description : Designator=C1 Old Description=Ceramic Capacitors   For new designs, use the packages preceded by an '_' character since they are more reliable:   The following footprints should be used on most boards: _0402 - Standard footprint for regular board layouts  _0603 - Standard footprint for regular board layouts  _0805 - Standard footprint for regular board layouts  _1206 - Standard footprint for regular board layouts       For extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.): _0402MP - Micro-pitch footprint for very dense/compact boards  _0603MP - Micro-pitch footprint for very dense/compact boards  _0805MP - Micro-pitch footprint for very dense/compact boards  _1206MP - Micro-pitch footprint for very dense/compact boards New Description=CAPACITOR, American symbol
+Change Component Description : Designator=C7 Old Description=Ceramic Capacitors   For new designs, use the packages preceded by an '_' character since they are more reliable:   The following footprints should be used on most boards: _0402 - Standard footprint for regular board layouts  _0603 - Standard footprint for regular board layouts  _0805 - Standard footprint for regular board layouts  _1206 - Standard footprint for regular board layouts       For extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.): _0402MP - Micro-pitch footprint for very dense/compact boards  _0603MP - Micro-pitch footprint for very dense/compact boards  _0805MP - Micro-pitch footprint for very dense/compact boards  _1206MP - Micro-pitch footprint for very dense/compact boards New Description=CAPACITOR, American symbol
+Change Component Description : Designator=R3 Old Description=RESISTOR, American symbol New Description=Resistors   For new designs, use the packages preceded by an '_' character since they are more reliable:   The following footprints should be used on most boards: _0402 - Standard footprint for regular board layouts  _0603 - Standard footprint for regular board layouts  _0805 - Standard footprint for regular board layouts  _1206 - Standard footprint for regular board layouts       For extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.): _0402MP - Micro-pitch footprint for very dense/compact boards  _0603MP - Micro-pitch footprint for very dense/compact boards  _0805MP - Micro-pitch footprint for very dense/compact boards  _1206MP - Micro-pitch footprint for very dense/compact boards
+Change Component Description : Designator=R4 Old Description=RESISTOR, American symbol New Description=Resistors   For new designs, use the packages preceded by an '_' character since they are more reliable:   The following footprints should be used on most boards: _0402 - Standard footprint for regular board layouts  _0603 - Standard footprint for regular board layouts  _0805 - Standard footprint for regular board layouts  _1206 - Standard footprint for regular board layouts       For extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.): _0402MP - Micro-pitch footprint for very dense/compact boards  _0603MP - Micro-pitch footprint for very dense/compact boards  _0805MP - Micro-pitch footprint for very dense/compact boards  _1206MP - Micro-pitch footprint for very dense/compact boards
+Change Component Description : Designator=R5 Old Description=RESISTOR, American symbol New Description=Resistors   For new designs, use the packages preceded by an '_' character since they are more reliable:   The following footprints should be used on most boards: _0402 - Standard footprint for regular board layouts  _0603 - Standard footprint for regular board layouts  _0805 - Standard footprint for regular board layouts  _1206 - Standard footprint for regular board layouts       For extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.): _0402MP - Micro-pitch footprint for very dense/compact boards  _0603MP - Micro-pitch footprint for very dense/compact boards  _0805MP - Micro-pitch footprint for very dense/compact boards  _1206MP - Micro-pitch footprint for very dense/compact boards
+Change Component Description : Designator=R3 Old Description=Resistors   For new designs, use the packages preceded by an '_' character since they are more reliable:   The following footprints should be used on most boards: _0402 - Standard footprint for regular board layouts  _0603 - Standard footprint for regular board layouts  _0805 - Standard footprint for regular board layouts  _1206 - Standard footprint for regular board layouts       For extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.): _0402MP - Micro-pitch footprint for very dense/compact boards  _0603MP - Micro-pitch footprint for very dense/compact boards  _0805MP - Micro-pitch footprint for very dense/compact boards  _1206MP - Micro-pitch footprint for very dense/compact boards New Description=RESISTOR, American symbol
+Change Component Description : Designator=R4 Old Description=Resistors   For new designs, use the packages preceded by an '_' character since they are more reliable:   The following footprints should be used on most boards: _0402 - Standard footprint for regular board layouts  _0603 - Standard footprint for regular board layouts  _0805 - Standard footprint for regular board layouts  _1206 - Standard footprint for regular board layouts       For extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.): _0402MP - Micro-pitch footprint for very dense/compact boards  _0603MP - Micro-pitch footprint for very dense/compact boards  _0805MP - Micro-pitch footprint for very dense/compact boards  _1206MP - Micro-pitch footprint for very dense/compact boards New Description=RESISTOR, American symbol
+Change Component Description : Designator=R5 Old Description=Resistors   For new designs, use the packages preceded by an '_' character since they are more reliable:   The following footprints should be used on most boards: _0402 - Standard footprint for regular board layouts  _0603 - Standard footprint for regular board layouts  _0805 - Standard footprint for regular board layouts  _1206 - Standard footprint for regular board layouts       For extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.): _0402MP - Micro-pitch footprint for very dense/compact boards  _0603MP - Micro-pitch footprint for very dense/compact boards  _0805MP - Micro-pitch footprint for very dense/compact boards  _1206MP - Micro-pitch footprint for very dense/compact boards New Description=RESISTOR, American symbol
+Change Component Library : Designator=C1 Old Library=adafruit.IntLib New Library=microbuilder.IntLib
+Change Component Library : Designator=C2 Old Library=adafruit.IntLib New Library=microbuilder.IntLib
+Change Component Library : Designator=C4 Old Library=adafruit.IntLib New Library=microbuilder.IntLib
+Change Component Library : Designator=C7 Old Library=adafruit.IntLib New Library=microbuilder.IntLib
+Change Component Library : Designator=R3 Old Library=adafruit.IntLib New Library=microbuilder.IntLib
+Change Component Library : Designator=R4 Old Library=adafruit.IntLib New Library=microbuilder.IntLib
+Change Component Library : Designator=R5 Old Library=adafruit.IntLib New Library=microbuilder.IntLib
+Change Component Library : Designator=C1 Old Library=microbuilder.IntLib New Library=adafruit.IntLib
+Change Component Library : Designator=C7 Old Library=microbuilder.IntLib New Library=adafruit.IntLib
+Change Component Library : Designator=R3 Old Library=microbuilder.IntLib New Library=adafruit.IntLib
+Change Component Library : Designator=R4 Old Library=microbuilder.IntLib New Library=adafruit.IntLib
+Change Component Library : Designator=R5 Old Library=microbuilder.IntLib New Library=adafruit.IntLib
+Added Component: Designator=C2(1608[0603])
+Added Component: Designator=C4(Res-0603)
+Added Component: Designator=CN1(USB-MINIB)
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=+5V Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=D+ Pin=CN1-D+
+Added Pin To Net: NetName=NetCN1_D+ Pin=CN1-D+
+Added Pin To Net: NetName=D- Pin=CN1-D-
+Added Pin To Net: NetName=NetCN1_D- Pin=CN1-D-
+Added Pin To Net: NetName=GND Pin=CN1-GND
+Added Pin To Net: NetName=5.0V Pin=CN1-VBUS
+Added Pin To Net: NetName=VBUS Pin=CN1-VBUS
+Added Member To Class: ClassName=Sheet1 Member=Component CN1 MiniB USB
+Added Member To Class: ClassName=Sheet2 Member=Component CN1 USBA_FEMALE
+Added Room: Name=Sheet1
+Added Room: Name=Sheet2

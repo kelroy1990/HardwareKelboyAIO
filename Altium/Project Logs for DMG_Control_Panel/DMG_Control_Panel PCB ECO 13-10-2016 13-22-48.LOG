@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=CN1 Old Footprint=USB-MINIB New Footprint=USB_HOST-PTH
+Change Component Footprint: Designator=CN1 Old Footprint=USB_HOST-PTH New Footprint=USB-MINIB
+Change Physical Footprint: Designator=SELECT Old Footprint=DMG-SEL New Footprint=DMG-SEL
+Change Physical Footprint: Designator=START Old Footprint=DMG-ST New Footprint=DMG-ST
+Change Physical Footprint: Designator=X Old Footprint=DMG-BTN -XY New Footprint=DMG-BTN -XY

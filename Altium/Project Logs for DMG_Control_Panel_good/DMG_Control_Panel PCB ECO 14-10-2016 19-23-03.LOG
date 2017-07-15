@@ -1,0 +1,6 @@
+Change Component Designator: OldDesignator=ButtonL NewDesignator=ButtonL1
+Change Component Designator: OldDesignator=ButtonR NewDesignator=ButtonR1
+Change Component Designator: OldDesignator=C5 NewDesignator=C1
+Change Component Designator: OldDesignator=X1 NewDesignator=X4
+Added Pin To Net: NetName=5VPOWERBOOST Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
